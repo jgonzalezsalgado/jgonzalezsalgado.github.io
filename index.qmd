@@ -1,5 +1,5 @@
 ---
-title: "Portfolio"
+title: "Welcome to my Engineering Portfolio!"
 image: Joaquin.jpg
 about:
   template: jolla
@@ -53,6 +53,5 @@ part of the
 
 ## Contact Me {#contact}
 
-📧 **Email:** joaquin@example.com  
-🔗 **LinkedIn:** <https://www.linkedin.com/in/joaquin-e-gs/>  
-💻 **GitHub:** <https://github.com/jgonzalezsalgado>
+**Email:** jgsengineer@gmail.com
+**Phone:** 9099047494
