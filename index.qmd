@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my Engineering Portfolio!"
+title: "Joaquin Gonzalez-Salgado"
 image: Joaquin.jpg
 about:
   template: jolla
@@ -12,7 +12,7 @@ about:
       href: https://github.com/jgonzalezsalgado
 ---
 
-Hello! I am Joaquin Gonzalez-Salgado, a rising Junior Engineering major at
+Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at
 [Harvey Mudd College](https://hmc.edu) interested in electrical and computer
 engineering (with appreciation for mechanical engineering.)
 
@@ -111,3 +111,12 @@ Experimental Engineering, Engineering Design and Manufacturing
 
  **Email:** [jgsengineer@gmail.com](mailto: jgsengineer@gmail.com)   
  **Phone:** [(909) 904 - 7494](tel: 9099047494)
+
+---
+
+<iframe 
+  src="resume.pdf" 
+  width="100%" 
+  height="800px"
+  style="border: none;">
+</iframe>

@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: Joaquin.jpg
   title: "Portfolio"
   navbar:
     left:
@@ -16,12 +17,16 @@ website:
       - href: index.qmd#skills
         text: Related Coursework & Skills
       - href: index.qmd#contact
-        text: Contact Me       
+        text: Contact Me
+
+
 
 format:
   html:
     theme:
-      - cosmo
+      light:
+      - litera
       - brand
+      dark: darkly
     css: styles.css
     toc: true
