@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Hello! I am Joaquin Gonzalez-Salgado, a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.) I’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship. I also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab. It would be great if we could connect!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
