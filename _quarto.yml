@@ -7,6 +7,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: index.qmd#research
+        text: Research & Fellowships
+      - href: index.qmd#experience
+        text: Experience
+      - href: index.qmd#projects
+        text: Projects
+      - href: index.qmd#contact
+        text: Contact Me
 
 format:
   html:
@@ -15,6 +23,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
