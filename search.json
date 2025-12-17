@@ -4,7 +4,35 @@
     "href": "index.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Hello! I am Joaquin Gonzalez-Salgado, a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.) I’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship. I also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab. It would be great if we could connect!"
+    "text": "Hello! I am Joaquin Gonzalez-Salgado, a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.)\nI’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship.\nI also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Portfolio",
+    "section": "Research & Fellowships",
+    "text": "Research & Fellowships\n\nCORE-V Wally RISC-V verification suite (open source)\nClay-Wolkin Fellowship\nHardware/firmware research with USDA & ACE Lab"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Portfolio",
+    "section": "Experience",
+    "text": "Experience\n\nHardware/Firmware Engineer — USDA\nMakerspace Steward — Harvey Mudd College\nSummer Steward / Student Proctor"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Portfolio",
+    "section": "Projects",
+    "text": "Projects\n\nRISC-V processor verification tooling\nLow-noise analog amplifier design\nEmbedded systems and FPGA-based projects"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Portfolio",
+    "section": "Contact Me",
+    "text": "Contact Me\n📧 Email: joaquin@example.com\n🔗 LinkedIn: https://www.linkedin.com/in/joaquin-e-gs/\n💻 GitHub: https://github.com/jgonzalezsalgado"
   },
   {
     "objectID": "about.html",
