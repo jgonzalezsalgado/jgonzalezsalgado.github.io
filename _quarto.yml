@@ -13,8 +13,10 @@ website:
         text: Experience
       - href: index.qmd#projects
         text: Projects
+      - href: index.qmd#skills
+        text: Related Coursework & Skills
       - href: index.qmd#contact
-        text: Contact Me
+        text: Contact Me       
 
 format:
   html:

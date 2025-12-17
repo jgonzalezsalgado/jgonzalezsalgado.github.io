@@ -28,30 +28,86 @@ part of the
 ---
 
 ## Research & Fellowships {#research}
+**RISC-V Microprocessor Vertification and Design**    
+Developed familiarity with RISC-V microprocessor design, verification, and certification workflows through analysis of open-source CORE-V Wally architecture and RISC-V specifications.   
 
-- CORE-V Wally RISC-V verification suite (open source)
-- Clay-Wolkin Fellowship
-- Hardware/firmware research with USDA & ACE Lab
+Worked with Python, SystemVerilog, and RISC-V assembly concepts to design tests, explore coverage metrics, and understand microprocessor verification methodologies. 
 
+Applied instruction-set simulation, SystemVerilog simulation, and coverage analysis techniques to understand RISC-V specifications, debug test behavior, and evaluate microprocessor verification workflows.redo     
+
+**Hardware Researcher, USDA: Electropenetography (EPG) Amplifiers**   
+Designed and tested low-noise, field-deployable analog amplifiers for electropenetrography (EPG) to monitor feeding
+behavior of disease-vector insects, supporting agricultural and ecological research.   
+
+Developed microcontroller firmware and Python-based software to acquire, process, and visualize high-sensitivity analog
+signals from insect feeding experiments.    
+
+Applied benchtop electronics skills including oscilloscopes, function generators, and power supplies to prototype circuits,
+optimize signal quality, and improve reliability for field deployment.   
+
+
+**Physics Researcher, Drone FPGA Radio-Telescope Beam Mapping**    
+Operated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a
+clear beam pattern of a ground-based radio telescope, modeling a software defined radio.    
+
+Developed FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband
+signals for DSP analysis via Fast Fourier Transforms (FFTs).   
+
+Configured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF
+amplification, and Python--based data analysis/visualization.   
+ 
 ---
 
-## Experience {#experience}
+## Work Experience {#experience}
 
-- Hardware/Firmware Engineer — USDA
-- Makerspace Steward — Harvey Mudd College
-- Summer Steward / Student Proctor
+**Machine Shop Improvement Proctor**  
+
+Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop
+safety protocols and best practices.
+
+Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing.   
+
+As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.   
+
+
+**Makerspace Steward** 
+Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment,
+fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects.   
+
+Created and customized a skateboard, an LCD alarm clock, as well as TPU footwear via the Makerspace Project Grant.   
+
+Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of
+resources.   
 
 ---
 
 ## Projects {#projects}
+**Digital Logic Demonstration Board**  
 
-- RISC-V processor verification tooling
-- Low-noise analog amplifier design
-- Embedded systems and FPGA-based projects
+Designed and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a
+potentiometer-based clock input.  
+
+Engineered intuitive controls with input switches, banana cables and ports for adjustability, and LEDs to clearly display
+output states
+
+Delivered a durable, lecture teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture
+Course.   
+
+--- 
+
+## Related Coursework & Skills {#skills}
+
+ **Skills:** Python, Solidworks/Fusion CAD, Arduino IDE, ESP32, Verilog, VHDL, C, C++, Assembly, Altium Designer, KiCad, Nordic RF,
+PCB Design, FPGA Development, SMT Soldering, Quartus Prime, QuestaSim, LabVIEW, Multimeter, Function/Waveform
+Generator, TIG/MIG Welding, Waterjet Cutting, (CNC) Lathe, (CNC) Mill, Laser Cutting, 3D Printing (FDM, SLA, SLS), Excel 
+
+ **Related Coursework:** Materials Engineering, Continuum Mechanics, Applied Math for Engineering, EV Design Lab, Digital
+Elec & Computer Engineering, Electronics & Magnetic Circuits/Devices, Engineering Systems, Electromagnetic Theory,
+Experimental Engineering, Engineering Design and Manufacturing
 
 ---
 
 ## Contact Me {#contact}
 
-**Email:** jgsengineer@gmail.com
-**Phone:** 9099047494
+ **Email:** [jgsengineer@gmail.com](mailto: jgsengineer@gmail.com)   
+ **Phone:** [(909) 904 - 7494](tel: 9099047494)
