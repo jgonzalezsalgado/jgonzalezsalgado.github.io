@@ -2,42 +2,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to my Engineering Portfolio!",
+    "title": "Joaquin Gonzalez-Salgado",
     "section": "",
-    "text": "Hello! I am Joaquin Gonzalez-Salgado, a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.)\nI’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship.\nI also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab."
+    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.)\nI’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship.\nI also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab."
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
-    "title": "Welcome to my Engineering Portfolio!",
+    "title": "Joaquin Gonzalez-Salgado",
     "section": "Research & Fellowships",
     "text": "Research & Fellowships\nRISC-V Microprocessor Vertification and Design\nDeveloped familiarity with RISC-V microprocessor design, verification, and certification workflows through analysis of open-source CORE-V Wally architecture and RISC-V specifications.\nWorked with Python, SystemVerilog, and RISC-V assembly concepts to design tests, explore coverage metrics, and understand microprocessor verification methodologies.\nApplied instruction-set simulation, SystemVerilog simulation, and coverage analysis techniques to understand RISC-V specifications, debug test behavior, and evaluate microprocessor verification workflows.redo\nHardware Researcher, USDA: Electropenetography (EPG) Amplifiers\nDesigned and tested low-noise, field-deployable analog amplifiers for electropenetrography (EPG) to monitor feeding behavior of disease-vector insects, supporting agricultural and ecological research.\nDeveloped microcontroller firmware and Python-based software to acquire, process, and visualize high-sensitivity analog signals from insect feeding experiments.\nApplied benchtop electronics skills including oscilloscopes, function generators, and power supplies to prototype circuits, optimize signal quality, and improve reliability for field deployment.\nPhysics Researcher, Drone FPGA Radio-Telescope Beam Mapping\nOperated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a clear beam pattern of a ground-based radio telescope, modeling a software defined radio.\nDeveloped FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband signals for DSP analysis via Fast Fourier Transforms (FFTs).\nConfigured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF amplification, and Python–based data analysis/visualization."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Welcome to my Engineering Portfolio!",
+    "title": "Joaquin Gonzalez-Salgado",
     "section": "Work Experience",
     "text": "Work Experience\nMachine Shop Improvement Proctor\nSupervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices.\nTrained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing.\nAs a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\nMakerspace Steward Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects.\nCreated and customized a skateboard, an LCD alarm clock, as well as TPU footwear via the Makerspace Project Grant.\nOversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources."
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
-    "title": "Welcome to my Engineering Portfolio!",
+    "title": "Joaquin Gonzalez-Salgado",
     "section": "Projects",
     "text": "Projects\nDigital Logic Demonstration Board\nDesigned and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a potentiometer-based clock input.\nEngineered intuitive controls with input switches, banana cables and ports for adjustability, and LEDs to clearly display output states\nDelivered a durable, lecture teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture Course."
   },
   {
     "objectID": "index.html#skills",
     "href": "index.html#skills",
-    "title": "Welcome to my Engineering Portfolio!",
+    "title": "Joaquin Gonzalez-Salgado",
     "section": "Related Coursework & Skills",
     "text": "Related Coursework & Skills\nSkills: Python, Solidworks/Fusion CAD, Arduino IDE, ESP32, Verilog, VHDL, C, C++, Assembly, Altium Designer, KiCad, Nordic RF, PCB Design, FPGA Development, SMT Soldering, Quartus Prime, QuestaSim, LabVIEW, Multimeter, Function/Waveform Generator, TIG/MIG Welding, Waterjet Cutting, (CNC) Lathe, (CNC) Mill, Laser Cutting, 3D Printing (FDM, SLA, SLS), Excel\nRelated Coursework: Materials Engineering, Continuum Mechanics, Applied Math for Engineering, EV Design Lab, Digital Elec & Computer Engineering, Electronics & Magnetic Circuits/Devices, Engineering Systems, Electromagnetic Theory, Experimental Engineering, Engineering Design and Manufacturing"
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
-    "title": "Welcome to my Engineering Portfolio!",
+    "title": "Joaquin Gonzalez-Salgado",
     "section": "Contact Me",
     "text": "Contact Me\nEmail: jgsengineer@gmail.com\nPhone: (909) 904 - 7494"
   },
