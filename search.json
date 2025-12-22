@@ -1,51 +1,107 @@
 [
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research & Fellowships",
+    "section": "",
+    "text": "Overview:  Developed familiarity with RISC-V microprocessor design, verification, and certification workflows through analysis of open-source CORE-V Wally architecture and RISC-V specifications.\nWorked with Python, SystemVerilog, and RISC-V assembly concepts to design tests, explore coverage metrics, and understand microprocessor verification methodologies.\nApplied instruction-set simulation, SystemVerilog simulation, and coverage analysis techniques to understand RISC-V specifications, debug test behavior, and evaluate microprocessor verification workflows.\n\n\n\n\n \n\n\nOverview:  Designed and tested low-noise, field-deployable analog amplifiers for electropenetrography (EPG) to monitor feeding behavior of disease-vector insects, supporting agricultural and ecological research.\nDeveloped microcontroller firmware and Python-based software to acquire, process, and visualize high-sensitivity analog signals from insect feeding experiments.\nApplied benchtop electronics skills including oscilloscopes, function generators, and power supplies to prototype circuits, optimize signal quality, and improve reliability for field deployment.\n\n\n\n\n \n\n\nOverview:  Operated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a clear beam pattern of a ground-based radio telescope, modeling a software defined radio.\nDeveloped FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband signals for DSP analysis via Fast Fourier Transforms (FFTs).\nConfigured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF amplification, and Python–based data analysis/visualization."
+  },
+  {
+    "objectID": "research.html#clay-wolkin-fellowship-very-large-scale-integration-vlsi",
+    "href": "research.html#clay-wolkin-fellowship-very-large-scale-integration-vlsi",
+    "title": "Research & Fellowships",
+    "section": "",
+    "text": "Overview:  Developed familiarity with RISC-V microprocessor design, verification, and certification workflows through analysis of open-source CORE-V Wally architecture and RISC-V specifications.\nWorked with Python, SystemVerilog, and RISC-V assembly concepts to design tests, explore coverage metrics, and understand microprocessor verification methodologies.\nApplied instruction-set simulation, SystemVerilog simulation, and coverage analysis techniques to understand RISC-V specifications, debug test behavior, and evaluate microprocessor verification workflows."
+  },
+  {
+    "objectID": "research.html#usda-electropenetography-hardwarefirmware",
+    "href": "research.html#usda-electropenetography-hardwarefirmware",
+    "title": "Research & Fellowships",
+    "section": "",
+    "text": "Overview:  Designed and tested low-noise, field-deployable analog amplifiers for electropenetrography (EPG) to monitor feeding behavior of disease-vector insects, supporting agricultural and ecological research.\nDeveloped microcontroller firmware and Python-based software to acquire, process, and visualize high-sensitivity analog signals from insect feeding experiments.\nApplied benchtop electronics skills including oscilloscopes, function generators, and power supplies to prototype circuits, optimize signal quality, and improve reliability for field deployment."
+  },
+  {
+    "objectID": "research.html#drone-fpga-radio-telescope-beam-mapping",
+    "href": "research.html#drone-fpga-radio-telescope-beam-mapping",
+    "title": "Research & Fellowships",
+    "section": "",
+    "text": "Overview:  Operated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a clear beam pattern of a ground-based radio telescope, modeling a software defined radio.\nDeveloped FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband signals for DSP analysis via Fast Fourier Transforms (FFTs).\nConfigured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF amplification, and Python–based data analysis/visualization."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Joaquin Gonzalez-Salgado",
     "section": "",
-    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.)\nI’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship.\nI also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab."
+    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.) I’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship. I also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab.\n\n\n Open Full Resume in New Tab"
   },
   {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Joaquin Gonzalez-Salgado",
-    "section": "Research & Fellowships",
-    "text": "Research & Fellowships\nRISC-V Microprocessor Vertification and Design\nDeveloped familiarity with RISC-V microprocessor design, verification, and certification workflows through analysis of open-source CORE-V Wally architecture and RISC-V specifications.\nWorked with Python, SystemVerilog, and RISC-V assembly concepts to design tests, explore coverage metrics, and understand microprocessor verification methodologies.\nApplied instruction-set simulation, SystemVerilog simulation, and coverage analysis techniques to understand RISC-V specifications, debug test behavior, and evaluate microprocessor verification workflows.redo\nHardware Researcher, USDA: Electropenetography (EPG) Amplifiers\nDesigned and tested low-noise, field-deployable analog amplifiers for electropenetrography (EPG) to monitor feeding behavior of disease-vector insects, supporting agricultural and ecological research.\nDeveloped microcontroller firmware and Python-based software to acquire, process, and visualize high-sensitivity analog signals from insect feeding experiments.\nApplied benchtop electronics skills including oscilloscopes, function generators, and power supplies to prototype circuits, optimize signal quality, and improve reliability for field deployment.\nPhysics Researcher, Drone FPGA Radio-Telescope Beam Mapping\nOperated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a clear beam pattern of a ground-based radio telescope, modeling a software defined radio.\nDeveloped FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband signals for DSP analysis via Fast Fourier Transforms (FFTs).\nConfigured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF amplification, and Python–based data analysis/visualization."
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Joaquin Gonzalez-Salgado",
-    "section": "Work Experience",
-    "text": "Work Experience\nMachine Shop Improvement Proctor\nSupervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices.\nTrained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing.\nAs a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\nMakerspace Steward Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects.\nCreated and customized a skateboard, an LCD alarm clock, as well as TPU footwear via the Makerspace Project Grant.\nOversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources."
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Joaquin Gonzalez-Salgado",
-    "section": "Projects",
-    "text": "Projects\nDigital Logic Demonstration Board\nDesigned and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a potentiometer-based clock input.\nEngineered intuitive controls with input switches, banana cables and ports for adjustability, and LEDs to clearly display output states\nDelivered a durable, lecture teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture Course."
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Joaquin Gonzalez-Salgado",
-    "section": "Related Coursework & Skills",
-    "text": "Related Coursework & Skills\nSkills: Python, Solidworks/Fusion CAD, Arduino IDE, ESP32, Verilog, VHDL, C, C++, Assembly, Altium Designer, KiCad, Nordic RF, PCB Design, FPGA Development, SMT Soldering, Quartus Prime, QuestaSim, LabVIEW, Multimeter, Function/Waveform Generator, TIG/MIG Welding, Waterjet Cutting, (CNC) Lathe, (CNC) Mill, Laser Cutting, 3D Printing (FDM, SLA, SLS), Excel\nRelated Coursework: Materials Engineering, Continuum Mechanics, Applied Math for Engineering, EV Design Lab, Digital Elec & Computer Engineering, Electronics & Magnetic Circuits/Devices, Engineering Systems, Electromagnetic Theory, Experimental Engineering, Engineering Design and Manufacturing"
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Joaquin Gonzalez-Salgado",
-    "section": "Contact Me",
-    "text": "Contact Me\nEmail: jgsengineer@gmail.com\nPhone: (909) 904 - 7494"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Portfolio",
     "section": "",
-    "text": "About this site"
+    "text": "Blogs Coming Soon!"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Overview:  Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices. Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing. As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\n\nMachine Shop Website →\n\n\n\n \n\n\nOverview:  Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects. Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources.\n\nMakerspace Website →"
+  },
+  {
+    "objectID": "experience.html#machine-shop-proctor",
+    "href": "experience.html#machine-shop-proctor",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Overview:  Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices. Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing. As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\n\nMachine Shop Website →"
+  },
+  {
+    "objectID": "experience.html#makerspace-steward",
+    "href": "experience.html#makerspace-steward",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Overview:  Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects. Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources.\n\nMakerspace Website →"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Personal & Class Projects",
+    "section": "",
+    "text": "Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\nComing Soon!\n\n\n\n\n\nDesigning a Autonomous Underwater Vehicle (ASV) to map collect water-characteristic data at Baby Beach, Dana Point Harbor, CA using mechanical, electrical, and other techniques.\nComing Soon!\n\n\n\n\n\n\n \n\n\nOverview:  Developed an embedded C application to implement a 2D digital level, interfacing a triple-axis accelerometer with a microcontroller to measure tilt along the x and y axes.\nDesigned and wired a complete hardware system on a breadboard, integrating a RED-V development board, LIS3DH accelerometer, and an 8×8 LED matrix.\nProcessed sensor data and controlled peripheral hardware, calibrating accelerometer readings, converting tilt angles into discrete LED positions, and driving the LED matrix.\n\n\n\n\n \n\n\nOverview:  Designed a multicycle RISC-V processor in SystemVerilog, creating a hierarchical architecture with a finite-state machine, datapath, ALU, register file, and unified memory adapted from a single-cycle design.\nValidated processor functionality through simulation and waveform analysis, tracking key signals, and control states to ensure correct multi-cycle instruction execution.\nSystematically debugged RTL using testbenches and predicted execution traces, identifying and resolving interface mismatches, and control signal errors, until the processor passed all tests.\n\n\n\n\n\n\n\n \n\n\nOverview:  Constructed an underwater remotely operated vehicle (ROV) used to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge.\nAssembled a PCB containing the MCP6002 OpAmp to return output voltages that can be modeled and analyzed in LabView.\nAlso configured the thrusters, power regulation circuits, and user inputs with robust waterproofing considerations including wiring and motors.\n\n\n\n\n\n\n\n \n\n\nOverview:  Designed and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a potentiometer-based clock input.\nEngineered intuitive controls with input switches, banana cables and ports for adjustability, and LEDs to clearly display output states.\nDelivered a durable, lecture teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture Course.\n\n\n\n\n \n\n\nOverview:  Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements.\nThe project emphasized material selection, fit, and functional performance. Applied a range of machining and fabrication processes, including turning and facing on manual lathes, milling operations, tapping, and controlled heat treatment using industrial ovens to achieve specified mechanical properties and final dimensions.\nI now serve as a Machine Shop Proctor, responsible for training and supervising new engineering students in the step-by-step hammer manufacturing process, ensuring adherence to technical standards and best practices."
+  },
+  {
+    "objectID": "projects.html#electric-vehicle-design-lab",
+    "href": "projects.html#electric-vehicle-design-lab",
+    "title": "Personal & Class Projects",
+    "section": "",
+    "text": "Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\nComing Soon!"
+  },
+  {
+    "objectID": "projects.html#experiment-engineering",
+    "href": "projects.html#experiment-engineering",
+    "title": "Personal & Class Projects",
+    "section": "",
+    "text": "Designing a Autonomous Underwater Vehicle (ASV) to map collect water-characteristic data at Baby Beach, Dana Point Harbor, CA using mechanical, electrical, and other techniques.\nComing Soon!"
+  },
+  {
+    "objectID": "projects.html#digital-electronics-computer-architecture-e85",
+    "href": "projects.html#digital-electronics-computer-architecture-e85",
+    "title": "Personal & Class Projects",
+    "section": "",
+    "text": "Overview:  Developed an embedded C application to implement a 2D digital level, interfacing a triple-axis accelerometer with a microcontroller to measure tilt along the x and y axes.\nDesigned and wired a complete hardware system on a breadboard, integrating a RED-V development board, LIS3DH accelerometer, and an 8×8 LED matrix.\nProcessed sensor data and controlled peripheral hardware, calibrating accelerometer readings, converting tilt angles into discrete LED positions, and driving the LED matrix.\n\n\n\n\n \n\n\nOverview:  Designed a multicycle RISC-V processor in SystemVerilog, creating a hierarchical architecture with a finite-state machine, datapath, ALU, register file, and unified memory adapted from a single-cycle design.\nValidated processor functionality through simulation and waveform analysis, tracking key signals, and control states to ensure correct multi-cycle instruction execution.\nSystematically debugged RTL using testbenches and predicted execution traces, identifying and resolving interface mismatches, and control signal errors, until the processor passed all tests."
+  },
+  {
+    "objectID": "projects.html#systems-engineering-project-e79",
+    "href": "projects.html#systems-engineering-project-e79",
+    "title": "Personal & Class Projects",
+    "section": "",
+    "text": "Overview:  Constructed an underwater remotely operated vehicle (ROV) used to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge.\nAssembled a PCB containing the MCP6002 OpAmp to return output voltages that can be modeled and analyzed in LabView.\nAlso configured the thrusters, power regulation circuits, and user inputs with robust waterproofing considerations including wiring and motors."
+  },
+  {
+    "objectID": "projects.html#engineering-design-and-manufacturing-projects-e4",
+    "href": "projects.html#engineering-design-and-manufacturing-projects-e4",
+    "title": "Personal & Class Projects",
+    "section": "",
+    "text": "Overview:  Designed and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a potentiometer-based clock input.\nEngineered intuitive controls with input switches, banana cables and ports for adjustability, and LEDs to clearly display output states.\nDelivered a durable, lecture teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture Course.\n\n\n\n\n \n\n\nOverview:  Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements.\nThe project emphasized material selection, fit, and functional performance. Applied a range of machining and fabrication processes, including turning and facing on manual lathes, milling operations, tapping, and controlled heat treatment using industrial ovens to achieve specified mechanical properties and final dimensions.\nI now serve as a Machine Shop Proctor, responsible for training and supervising new engineering students in the step-by-step hammer manufacturing process, ensuring adherence to technical standards and best practices."
   }
 ]
