@@ -1,0 +1,44 @@
+# Work Experience
+
+
+::: {.media-content}
+## Machine Shop Proctor
+
+
+  <!-- Image floats left -->
+<img src="images/Machineshop.png" 
+     alt="Machine Shop Picture" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 18px); line-height: 1.8;">
+    __Overview:__ <br>
+    Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices. Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing. As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.
+  </p>
+
+<a href="https://sites.google.com/g.hmc.edu/hmc-machine-shop/home?authuser=0" class="learn-btn">Machine Shop Website →</a>
+
+:::
+
+
+::: {.media-content}
+## Makerspace Steward
+
+
+  <!-- Image floats left -->
+  <img src="images/Makerspace.png" 
+     alt="Makerspace Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 18px); line-height: 1.8;">
+    __Overview:__ <br>
+    Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects.  Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources. 
+  </p>
+<a href="https://make.hmc.edu/" class="learn-btn">Makerspace Website →</a>
+
+::: 
+

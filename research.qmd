@@ -1,0 +1,76 @@
+# Research & Fellowships
+
+
+::: {.media-content}
+## Clay-Wolkin Fellowship: Very Large Scale Integration (VLSI) 
+
+
+  <!-- Image floats left -->
+<img src="images/Claywolkin.png" 
+     alt="Clay-Wolkins Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Developed familiarity with RISC-V microprocessor design, verification, and certification workflows through analysis of open-source CORE-V Wally architecture and RISC-V specifications.
+
+    Worked with Python, SystemVerilog, and RISC-V assembly concepts to design tests, explore coverage metrics, and understand microprocessor verification methodologies.
+
+    Applied instruction-set simulation, SystemVerilog simulation, and coverage analysis techniques to understand RISC-V specifications, debug test behavior, and evaluate microprocessor verification workflows.
+  </p>
+
+
+:::
+
+
+::: {.media-content}
+## USDA: Electropenetography Hardware/Firmware
+
+
+  <!-- Image floats left -->
+  <img src="images/Usda.png" 
+     alt="USDA Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Designed and tested low-noise, field-deployable analog amplifiers for electropenetrography (EPG) to monitor feeding
+    behavior of disease-vector insects, supporting agricultural and ecological research.  
+
+    Developed microcontroller firmware and Python-based software to     acquire, process, and visualize high-sensitivity analog
+    signals from insect feeding experiments.    
+
+    Applied benchtop electronics skills including oscilloscopes, function generators, and power supplies to prototype circuits,
+    optimize signal quality, and improve reliability for field deployment. 
+  </p>
+  
+:::
+
+
+::: {.media-content}
+## Drone FPGA Radio-Telescope Beam Mapping
+
+
+  <!-- Image floats left -->
+  <img src="images/Drone.jpeg" 
+     alt="USDA Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Operated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a clear beam pattern of a ground-based radio telescope, modeling a software defined radio. 
+
+    Developed FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband signals for DSP analysis via Fast Fourier Transforms (FFTs). 
+
+    Configured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF amplification, and Python--based data analysis/visualization.
+  </p>
+
+:::
+

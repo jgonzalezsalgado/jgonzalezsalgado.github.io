@@ -1,0 +1,138 @@
+# Personal & Class Projects
+
+
+::: {.media-content}
+## Electric Vehicle Design Lab
+Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.
+
+*Coming Soon!*
+:::
+
+::: {.media-content}
+## Experiment Engineering
+### Autonomous Underwater Vehicle with Kp Control
+Designing a Autonomous Underwater Vehicle (ASV) to map collect water-characteristic data at Baby Beach, Dana Point Harbor, CA using mechanical, electrical, and other techniques.
+
+*Coming Soon!*
+:::
+
+## Digital Electronics / Computer Architecture (E85)
+
+::: {.media-content}
+### Digital Level
+
+
+  <!-- Image floats left -->
+  <img src="images/Digitallevel.png" 
+     alt="USDA Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Developed an embedded C application to implement a 2D digital level, interfacing a triple-axis accelerometer with a microcontroller to measure tilt along the x and y axes.
+    
+    Designed and wired a complete hardware system on a breadboard, integrating a RED-V development board, LIS3DH accelerometer, and an 8×8 LED matrix.
+    
+    Processed sensor data and controlled peripheral hardware, calibrating accelerometer readings, converting tilt angles into discrete LED positions, and driving the LED matrix.
+  </p>
+
+
+:::
+
+::: {.media-content}
+### Multicycle Processor
+
+
+  <!-- Image floats left -->
+  <img src="images/Multicycleprocessor.png" 
+     alt="USDA Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Designed a multicycle RISC-V processor in SystemVerilog, creating a hierarchical architecture with a finite-state machine, datapath, ALU, register file, and unified memory adapted from a single-cycle design. 
+    
+    Validated processor functionality through simulation and waveform analysis, tracking key signals, and control states to ensure correct multi-cycle instruction execution. 
+    
+    Systematically debugged RTL using testbenches and predicted execution traces, identifying and resolving interface mismatches, and control signal errors, until the processor passed all tests.
+  </p>
+
+
+:::
+
+## Systems Engineering Project (E79)
+
+::: {.media-content}
+### Submersible Robot with Kp Control
+
+
+  <!-- Image floats left -->
+  <img src="images/E79robot.jpg" 
+     alt="E79 Robot" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Constructed an underwater remotely operated vehicle (ROV) used to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge. 
+    
+    Assembled a PCB containing the MCP6002 OpAmp to return output voltages that can be modeled and analyzed in LabView. 
+    
+    Also configured the thrusters, power regulation circuits, and user inputs with robust waterproofing considerations including wiring and motors.
+  </p>
+
+
+:::
+
+## Engineering Design and Manufacturing Projects (E4)
+
+::: {.media-content}
+### Digital Logic Demonstration Board
+
+
+  <!-- Image floats left -->
+  <img src="images/Logicboard.jpeg" 
+     alt="USDA Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Designed and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a potentiometer-based clock input. 
+    
+    Engineered intuitive controls with input switches, banana cables and ports for adjustability, and LEDs to clearly display output states.
+    
+    Delivered a durable, lecture teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture Course.
+  </p>
+
+
+:::
+
+::: {.media-content}
+### E4 Hammer
+
+
+  <!-- Image floats left -->
+  <img src="images/hammer.jpg" 
+     alt="USDA Logo" 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
+            border-radius: 15px; border: 3px solid #000000;">
+
+  <!-- Text wraps around image with larger, responsive font -->
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
+    __Overview:__ <br>
+    Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements. 
+    
+    The project emphasized material selection, fit, and functional performance. Applied a range of machining and fabrication processes, including turning and facing on manual lathes, milling operations, tapping, and controlled heat treatment using industrial ovens to achieve specified mechanical properties and final dimensions. 
+    
+    I now serve as a Machine Shop Proctor, responsible for training and supervising new engineering students in the step-by-step hammer manufacturing process, ensuring adherence to technical standards and best practices.
+  </p>
+
+
+:::

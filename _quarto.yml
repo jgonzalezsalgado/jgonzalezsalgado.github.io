@@ -2,31 +2,34 @@ project:
   type: website
 
 website:
-  favicon: Joaquin.jpg
+  search:
+    location: navbar
+    type: overlay
+  favicon: images/Joaquin.jpg
   title: "Portfolio"
   navbar:
+    logo: images/logo.png
+    logo-herf: https://github.com/jgonzalezsalgado 
     left:
       - href: index.qmd
         text: Home
-      - href: index.qmd#research
+      - href: research.qmd
         text: Research & Fellowships
-      - href: index.qmd#experience
-        text: Experience
-      - href: index.qmd#projects
-        text: Projects
-      - href: index.qmd#skills
-        text: Related Coursework & Skills
-      - href: index.qmd#contact
-        text: Contact Me
-
+      - href: experience.qmd
+        text: Work Experience
+      - href: projects.qmd
+        text: Personal & Class Projects
+      - href: blog.qmd
+        text: Blog
 
 
 format:
   html:
     theme:
       light:
-      - litera
+      - cosmo
       - brand
       dark: darkly
     css: styles.css
     toc: true
+    
