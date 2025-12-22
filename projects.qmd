@@ -11,7 +11,7 @@ Team project to build an electric vehicle. Principles of EV design, battery tech
 ::: {.media-content}
 ## Experiment Engineering
 ### Autonomous Underwater Vehicle with Kp Control
-Designing a Autonomous Underwater Vehicle (ASV) to map collect water-characteristic data at Baby Beach, Dana Point Harbor, CA using mechanical, electrical, and other techniques.
+Designing a Autonomous Underwater Vehicle (AUV) to map collect water-characteristic data at Dana Point Harbor, CA.
 
 *Coming Soon!*
 :::
