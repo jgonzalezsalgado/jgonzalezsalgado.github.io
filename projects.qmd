@@ -2,14 +2,14 @@
 
 
 ::: {.media-content}
-## Electric Vehicle Design Lab
+## Electric Vehicle Design Lab (E49C)
 Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.
 
 *Coming Soon!*
 :::
 
 ::: {.media-content}
-## Experiment Engineering
+## Experiment Engineering (E80)
 ### Autonomous Underwater Vehicle with Kp Control
 Designing a Autonomous Underwater Vehicle (AUV) to map collect water-characteristic data at Dana Point Harbor, CA.
 
