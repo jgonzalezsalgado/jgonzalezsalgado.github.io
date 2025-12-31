@@ -9,7 +9,7 @@ website:
   title: "Portfolio"
   navbar:
     logo: images/logo.png
-    logo-herf: https://github.com/jgonzalezsalgado 
+    logo-href: https://github.com/jgonzalezsalgado
     left:
       - href: index.qmd
         text: Home
