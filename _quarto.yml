@@ -8,19 +8,24 @@ website:
   favicon: images/Joaquin.jpg
   title: "Portfolio"
   navbar:
-    logo: images/logo.png
-    logo-href: https://github.com/jgonzalezsalgado
-    left:
+    left:  
       - href: index.qmd
         text: Home
       - href: research.qmd
-        text: Research & Fellowships
+        text: "Research & Fellowships"
       - href: experience.qmd
         text: Work Experience
       - href: projects.qmd
         text: Personal & Class Projects
       - href: blog.qmd
         text: Blog
+    right:
+      - icon: github
+        href: https://github.com/jgonzalezsalgado
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joaquin-e-gs/
+        target: _blank  
 
 
 format:
