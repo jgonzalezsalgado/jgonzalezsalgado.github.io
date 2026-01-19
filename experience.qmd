@@ -24,7 +24,7 @@
 
 
 ::: {.media-content}
-## Makerspace Steward
+## Makerspace Repair Steward
 
 
   <!-- Image floats left -->
