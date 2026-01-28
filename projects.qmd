@@ -22,7 +22,11 @@ Designing a Autonomous Underwater Vehicle (AUV) to map collect water-characteris
   <!-- Text wraps around image with larger, responsive font -->
   <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 22px); line-height: 1.8;">
     __Overview:__ <br>
-    Description Here:
+    Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements. 
+    
+    The project emphasized material selection, fit, and functional performance. Applied a range of machining and fabrication processes, including turning and facing on manual lathes, milling operations, tapping, and controlled heat treatment using industrial ovens to achieve specified mechanical properties and final dimensions. 
+    
+    I now serve as a Machine Shop Proctor, responsible for training and supervising new engineering students in the step-by-step hammer manufacturing process, ensuring adherence to technical standards and best practices.
   </p>
 :::
 
