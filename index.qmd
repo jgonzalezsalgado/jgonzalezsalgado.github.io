@@ -1,6 +1,6 @@
 ---
 title: "Joaquin Gonzalez-Salgado"
-image: images/Joaquin.jpg
+image: images/Joaquin.jpeg
 about:
   template: jolla
   links:
