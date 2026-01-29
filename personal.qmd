@@ -2,7 +2,7 @@
 
 
 ::: {.media-content}
-## Electric Vehicle Design Lab (E49C)
+## Rockler Electronic Speaker 
  <!-- Image floats left -->
   <img src="images/speaker.jpeg" 
      alt="Speaker" 
@@ -12,15 +12,15 @@
   <!-- Text wraps around image with larger, responsive font -->
   <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(30px, 2.5vw, 50px); line-height: 1.8;">
     __Overview:__ <br>
-    Created a speaker
+    Created a speaker by cutting 8 triangular pieces of plywood, and wood glueing them together in a box orientation
+
+    Used the Rockler's Speaker Set to design and assemble the speaker kit, which connects via AUX and Bluetooth!
   </p>
 
 :::
 
 ::: {.media-content}
-## Electric Vehicle Design Lab (E49C)
-Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.
-
+## Red-ish Skateboard
  <!-- Image floats left -->
   <img src="images/skateboard.jpeg" 
      alt="Skateboard" 
@@ -30,7 +30,7 @@ Team project to build an electric vehicle. Principles of EV design, battery tech
   <!-- Text wraps around image with larger, responsive font -->
   <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(30px, 2.5vw, 50px); line-height: 1.8;">
     __Overview:__ <br>
-    Created a skateboard
+    Created a skateboard completely from scratch under the HMC Makerspace Grant! The materials for this assembly were a sheet of plywood, bearings and tires, grip tape, and red paint! 
   </p>
 
 :::
