@@ -28,18 +28,25 @@
     "text": "Overview:  Operated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a clear beam pattern of a ground-based radio telescope, modeling a software defined radio.\nDeveloped FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband signals for DSP analysis via Fast Fourier Transforms (FFTs).\nConfigured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF amplification, and Python–based data analysis/visualization."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Joaquin Gonzalez-Salgado",
+    "objectID": "personal.html",
+    "href": "personal.html",
+    "title": "Class Projects",
     "section": "",
-    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.) I’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship. I also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab.\n\n\n Open Full Resume in New Tab"
+    "text": "Overview:  Created a speaker\n\n\n\n\nTeam project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\n \n\n\nOverview:  Created a skateboard"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Portfolio",
+    "objectID": "personal.html#electric-vehicle-design-lab-e49c",
+    "href": "personal.html#electric-vehicle-design-lab-e49c",
+    "title": "Class Projects",
     "section": "",
-    "text": "Blogs Coming Soon!"
+    "text": "Overview:  Created a speaker"
+  },
+  {
+    "objectID": "personal.html#electric-vehicle-design-lab-e49c-1",
+    "href": "personal.html#electric-vehicle-design-lab-e49c-1",
+    "title": "Class Projects",
+    "section": "",
+    "text": "Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\n \n\n\nOverview:  Created a skateboard"
   },
   {
     "objectID": "experience.html",
@@ -61,6 +68,20 @@
     "title": "Work Experience",
     "section": "",
     "text": "Overview:  Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects. Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources.\n\nMakerspace Website →"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Blogs Coming Soon!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joaquin Gonzalez-Salgado",
+    "section": "",
+    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.) I’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship. I also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab.\n\n\n Open Full Resume in New Tab"
   },
   {
     "objectID": "projects.html",
