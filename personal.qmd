@@ -1,38 +1,52 @@
-# Class Projects
-
+# Personal Projects
 
 ::: {.media-content}
-## Rockler Electronic Speaker 
- <!-- Image floats left -->
-  <img src="images/speaker.jpeg" 
+## Rockler Wooden Speaker
+
+
+  <!-- Image floats left -->
+<img src="images/speaker.jpeg" 
      alt="Speaker" 
      style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
             border-radius: 15px; border: 3px solid #000000;">
 
+
   <!-- Text wraps around image with larger, responsive font -->
-  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(30px, 2.5vw, 50px); line-height: 1.8;">
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 18px); line-height: 1.8;">
     __Overview:__ <br>
-    Created a speaker by cutting 8 triangular pieces of plywood, and wood glueing them together in a box orientation
+    Created a bluetooth speaker by cutting 8 triangular pieces of plywood, and wood glueing them together in a box orientation!
 
-    Used the Rockler's Speaker Set to design and assemble the speaker kit, which connects via AUX and Bluetooth!
+    Utilized the Rockler's Speaker Set to design and assemble the speaker kit, which connects via AUX and Bluetooth! It's also portable, as it runs on a lithium ion charged battery.
 
+    This project involved a lot of wood shop tools, including a Table Saw, Miter Saw, Planar, and much more! 
 
+    This little project has now become a speaker I use day to day!
   </p>
+
+<a href="https://sites.google.com/g.hmc.edu/hmc-machine-shop/home?authuser=0" class="learn-btn">Machine Shop Website →</a>
 
 :::
 
+
 ::: {.media-content}
-## Red-ish Skateboard
- <!-- Image floats left -->
+## Makerspace Repair Steward
+
+
+  <!-- Image floats left -->
   <img src="images/skateboard.jpeg" 
-     alt="Skateboard" 
+     alt="Makerspace Logo" 
      style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
             border-radius: 15px; border: 3px solid #000000;">
 
   <!-- Text wraps around image with larger, responsive font -->
-  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(30px, 2.5vw, 50px); line-height: 1.8;">
+  <p class="justify-text" style="overflow-wrap: break-word; font-size: clamp(18px, 2.5vw, 18px); line-height: 1.8;">
     __Overview:__ <br>
-    Created a skateboard completely from scratch under the HMC Makerspace Grant! The materials for this assembly were a sheet of plywood, bearings and tires, grip tape, and red paint! 
-  </p>
+    Created a skateboard completely from scratch under the HMC Makerspace Grant! I previously had a skateboard, but felt I needed an upgrade
+    
+    The materials for this assembly were a sheet of plywood, bearings and tires, grip tape, and red paint, and was assembled over the course of 3 weeks. 
 
-:::
+    Used the ShopBot (CNC Router Table) to cut out the skateboard frame. This board is now used to travel around the Harvey Mudd campus!  
+  </p>
+<a href="https://make.hmc.edu/" class="learn-btn">Makerspace Website →</a>
+
+::: 
