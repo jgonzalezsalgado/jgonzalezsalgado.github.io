@@ -7,7 +7,7 @@
   <!-- Image floats left -->
 <img src="images/speaker.jpeg" 
      alt="Speaker" 
-     style="float: left; width: 300px; height 400px; margin: 0 20px 20px 0; 
+     style="float: left; width: 300px; height 300px; margin: 0 20px 20px 0; 
             border-radius: 15px; border: 3px solid #000000;">
 
 
