@@ -16,7 +16,9 @@ website:
       - href: experience.qmd
         text: Work Experience
       - href: projects.qmd
-        text: Personal & Class Projects
+        text: Class Projects
+      - href: personal.qmd
+        text: Personal Projects
       - href: blog.qmd
         text: Blog
     right:
