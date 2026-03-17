@@ -17,6 +17,8 @@ website:
         text: Work Experience
       - href: projects.qmd
         text: Class Projects
+      - href: e155.qmd
+        text: Microprocessors Projects 
       - href: personal.qmd
         text: Personal Projects
       - href: blog.qmd
