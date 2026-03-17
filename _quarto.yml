@@ -5,7 +5,7 @@ website:
   search:
     location: navbar
     type: overlay
-  favicon: images/Joaquin.jpg
+  favicon: images/Joaquin.jpeg
   title: "Portfolio"
   navbar:
     left:  
