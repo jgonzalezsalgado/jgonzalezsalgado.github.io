@@ -70,11 +70,67 @@
     "text": "Blogs Coming Soon!"
   },
   {
+    "objectID": "e155.html",
+    "href": "e155.html",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!\n\n\n\nComing Soon!\n\n\n\nComing Soon!\n\n\n\nComing Soon!\n\n\n\nComing Soon!\n\n\n\nComing Soon!\n\n\n\nComing Soon!"
+  },
+  {
+    "objectID": "e155.html#fpga-and-mcu-setup-and-testing-lab-1",
+    "href": "e155.html#fpga-and-mcu-setup-and-testing-lab-1",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "e155.html#multiplexed-7-segment-display-lab-2",
+    "href": "e155.html#multiplexed-7-segment-display-lab-2",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "e155.html#keypad-scanner-lab-3",
+    "href": "e155.html#keypad-scanner-lab-3",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "e155.html#digital-audio-lab-4",
+    "href": "e155.html#digital-audio-lab-4",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "e155.html#interrupts-lab-5",
+    "href": "e155.html#interrupts-lab-5",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "e155.html#spi-and-iot-lab-6",
+    "href": "e155.html#spi-and-iot-lab-6",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "e155.html#advanced-encryption-standard-lab-7",
+    "href": "e155.html#advanced-encryption-standard-lab-7",
+    "title": "Microprocessors (E155) Projects",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Joaquin Gonzalez-Salgado",
     "section": "",
-    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.) I’m currently doing research alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab.\n\n\n Open Full Resume in New Tab"
+    "text": "Welcome to my Engineering Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in electrical and computer engineering (with appreciation for mechanical engineering.) I’m currently doing research developing an open source RISC-V verification suite for the CORE-V Wally Processor under the Clay-Wolkin Fellowship. I also work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab.\n\n\n Open Full Resume in New Tab"
   },
   {
     "objectID": "projects.html",
