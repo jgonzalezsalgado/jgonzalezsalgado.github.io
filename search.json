@@ -21,53 +21,53 @@
     "text": "Overview:  Operated and programmed a large hexacopter drone carrying a custom (Xilinx FPGA) RF transmitter to calibrate and map a clear beam pattern of a ground-based radio telescope, modeling a software defined radio.\nDeveloped FPGA-based software-defined radio system with Verilog and Python, transmitting and receiving GHz-wideband signals for DSP analysis via Fast Fourier Transforms (FFTs).\nConfigured hardware and software systems include drone flight control (PX4/Ardupilot) GPS synchronization, RF amplification, and Python–based data analysis/visualization."
   },
   {
-    "objectID": "personal.html",
-    "href": "personal.html",
-    "title": "Personal Projects",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Class Projects",
     "section": "",
-    "text": "Overview:  Created a bluetooth speaker by cutting 8 triangular pieces of plywood, and wood glueing them together in a box orientation!\nUtilized the Rockler’s Speaker Set to design and assemble the speaker kit, which connects via AUX and Bluetooth! It’s also portable, as it runs on a lithium ion charged battery.\nThis project involved a lot of wood shop tools, including a Table Saw, Miter Saw, Planar, and much more!\nThis little project has now become a speaker I use day to day!\n\n\n\n\n \n\n\nOverview:  Created a skateboard completely from scratch under the HMC Makerspace Grant! I previously had a skateboard, but felt I needed an upgrade The materials for this assembly were a sheet of plywood, bearings and tires, grip tape, and red paint, and was assembled over the course of 3 weeks. Used the ShopBot (CNC Router Table) to cut out the skateboard frame. This board is now used to travel around the Harvey Mudd campus!"
+    "text": "Overview:\n      Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\n    \n    \n      Skills:\n      EV Design, Battery Technology, Vehicle Dynamics, Fabrication, Embedded Software\n    \n    Coming Soon!\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      - Coming soon.\n    \n    \n      Methods\n      \n      - Coming soon.\n    \n    \n      Result\n      \n      - Coming soon."
   },
   {
-    "objectID": "personal.html#rockler-wooden-speaker",
-    "href": "personal.html#rockler-wooden-speaker",
-    "title": "Personal Projects",
+    "objectID": "projects.html#electric-vehicle-design-lab-e49c",
+    "href": "projects.html#electric-vehicle-design-lab-e49c",
+    "title": "Class Projects",
     "section": "",
-    "text": "Overview:  Created a bluetooth speaker by cutting 8 triangular pieces of plywood, and wood glueing them together in a box orientation!\nUtilized the Rockler’s Speaker Set to design and assemble the speaker kit, which connects via AUX and Bluetooth! It’s also portable, as it runs on a lithium ion charged battery.\nThis project involved a lot of wood shop tools, including a Table Saw, Miter Saw, Planar, and much more!\nThis little project has now become a speaker I use day to day!"
+    "text": "Overview:\n      Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\n    \n    \n      Skills:\n      EV Design, Battery Technology, Vehicle Dynamics, Fabrication, Embedded Software\n    \n    Coming Soon!\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      - Coming soon.\n    \n    \n      Methods\n      \n      - Coming soon.\n    \n    \n      Result\n      \n      - Coming soon."
   },
   {
-    "objectID": "personal.html#red-ish-skateboard",
-    "href": "personal.html#red-ish-skateboard",
-    "title": "Personal Projects",
-    "section": "",
-    "text": "Overview:  Created a skateboard completely from scratch under the HMC Makerspace Grant! I previously had a skateboard, but felt I needed an upgrade The materials for this assembly were a sheet of plywood, bearings and tires, grip tape, and red paint, and was assembled over the course of 3 weeks. Used the ShopBot (CNC Router Table) to cut out the skateboard frame. This board is now used to travel around the Harvey Mudd campus!"
+    "objectID": "projects.html#experimental-engineering-e80",
+    "href": "projects.html#experimental-engineering-e80",
+    "title": "Class Projects",
+    "section": "Experimental Engineering (E80)",
+    "text": "Experimental Engineering (E80)\n\nAUV Ocean Floor SONAR Mapping\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Designed and created an Autonomous Underwater Vehicle (AUV) to create topography maps of the harbor floor using Time-of-flight measurements via SONAR technology (10W Exciter & Electret Mic).\n    \n    Skills:Arduino, MATLAB, SONAR, Embedded Systems, PCB Assembly\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Created an AUV to map harbor floor topography.\n        - Used Time-of-Flight SONAR measurements to generate depth data.\n      \n    \n    \n      Methods\n      \n      \n        - Integrated SONAR transducer and microphone into waterproofed AUV housing.\n        - Programmed microcontroller to record time-of-flight signals and log depth measurements.\n      \n    \n    \n      Result\n      \n      \n        - Successfully generated topography maps of the harbor floor.\n        - Validated low-cost SONAR-based AUV design for real-world underwater mapping."
   },
   {
-    "objectID": "experience.html",
-    "href": "experience.html",
-    "title": "Work Experience",
-    "section": "",
-    "text": "Overview:  Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices. Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing. As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\n\nMachine Shop Website →\n\n\n\n \n\n\nOverview:  Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects. Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources.\n\nMakerspace Website →"
+    "objectID": "projects.html#digital-electronics-computer-architecture-e85",
+    "href": "projects.html#digital-electronics-computer-architecture-e85",
+    "title": "Class Projects",
+    "section": "Digital Electronics / Computer Architecture (E85)",
+    "text": "Digital Electronics / Computer Architecture (E85)\n\nDigital Level\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Developed an embedded C application to implement a 2D digital level, interfacing a triple-axis accelerometer with a microcontroller to measure tilt along the x and y axes.\n      Designed and wired a complete hardware system on a breadboard, integrating a RED-V development board, LIS3DH accelerometer, and an 8x8 LED matrix.\n    \n    Skills:C/C++, SPI Communication, Calibration, Soldering, Embedded Systems\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Created a digital level mapping tilt angles to an 8x8 LED matrix bubble display.\n        - Bubble motion indicated surface tilt in X and Y axes.\n      \n    \n    \n      Methods\n      \n      \n        - Programmed RED-V ThingPlus in C using SPI to interface with LIS3DH accelerometer.\n        - Implemented real-time signal processing and calibration for smooth bubble motion.\n      \n    \n    \n      Result\n      \n      \n        - Achieved accurate, smooth, reliable bubble display validating full embedded system integration.\n        - Designed a sensitive and practical 2D digital tool with real-world use.\n      \n    \n  \n\n\n\nMulticycle Processor\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Designed a multicycle RISC-V processor in SystemVerilog, creating a hierarchical architecture with a finite-state machine, datapath, ALU, register file, and unified memory adapted from a single-cycle design.\n      Validated processor functionality through simulation and waveform analysis.\n    \n    Skills:SystemVerilog, HDL, Assembly, RISC-V, Quartus FPGA, Questa\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Built a multicycle RISC-V CPU capable of executing arithmetic instructions and managing memory.\n        - Leveraged single-cycle components to construct a modular multicycle architecture.\n      \n    \n    \n      Methods\n      \n      \n        - Wrote SystemVerilog datapath connecting controller, memory, and register file modules.\n        - Debugged by comparing assembly testbenches against waveforms and consulted Quartus RTL schematic.\n      \n    \n    \n      Result\n      \n      \n        - Processor matched waveform expectations confirming correct values at correct addresses.\n        - Deepened understanding of RISC-V architecture and processor design principles."
   },
   {
-    "objectID": "experience.html#machine-shop-proctor",
-    "href": "experience.html#machine-shop-proctor",
-    "title": "Work Experience",
-    "section": "",
-    "text": "Overview:  Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices. Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing. As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\n\nMachine Shop Website →"
+    "objectID": "projects.html#systems-engineering-e79",
+    "href": "projects.html#systems-engineering-e79",
+    "title": "Class Projects",
+    "section": "Systems Engineering (E79)",
+    "text": "Systems Engineering (E79)\n\nSubmersible Robot with Kp Control\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Constructed an underwater remotely operated vehicle (ROV) to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge.\n      Assembled a PCB containing the MCP6002 OpAmp to return output voltages modeled and analyzed in LabVIEW.\n    \n    Skills:LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Created a fully waterproof ROV to measure temperature and pressure across varying depths.\n        - Implemented proportional (Kp) control for motor operation.\n      \n    \n    \n      Methods\n      \n      \n        - Modeled ROV vertical motion by changing motor PWM duty cycle in LabVIEW.\n        - Soldered pressure sensor and thermistor circuits to the project PCB.\n      \n    \n    \n      Result\n      \n      \n        - Deployed ROV in a real-world environment and collected valid environmental data.\n        - Gained hands-on experience in PCB assembly, soldering, and oscilloscope use."
   },
   {
-    "objectID": "experience.html#makerspace-repair-steward",
-    "href": "experience.html#makerspace-repair-steward",
-    "title": "Work Experience",
-    "section": "",
-    "text": "Overview:  Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects. Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources.\n\nMakerspace Website →"
+    "objectID": "projects.html#engineering-design-manufacturing-e4",
+    "href": "projects.html#engineering-design-manufacturing-e4",
+    "title": "Class Projects",
+    "section": "Engineering Design & Manufacturing (E4)",
+    "text": "Engineering Design & Manufacturing (E4)\n\nDigital Logic Demonstration Board\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Designed and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a potentiometer-based clock input.\n      Engineered intuitive controls with input switches, banana cables, and LEDs to clearly display output states.\n      Delivered a durable teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture course.\n    \n    Skills:Digital Logic, PCB Design, 74HC ICs, 555 Timer, Soldering\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Built a logic-gate demonstration board using 74HC Series ICs and a 555 timer.\n        - Incorporated input switches, banana cable ports, and LEDs for clear output visualization.\n      \n    \n    \n      Methods\n      \n      \n        - Designed board layout for intuitive student interaction and clear signal flow.\n        - Wired and soldered 74HC gates, 555 timer clock, and potentiometer for adjustable frequency.\n      \n    \n    \n      Result\n      \n      \n        - Delivered a durable teaching tool now actively used by Professor Stone in E85 lectures.\n        - Reinforced understanding of combinational logic design and hands-on fabrication.\n      \n    \n  \n\n\n\nE4 Machinist Hammer\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements.\n      Applied turning, facing, milling, tapping, and heat treatment processes to achieve specified mechanical properties.\n    \n    Skills:GD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Manufactured a functional machinist hammer from oak, steel, and nylon to precise GD&T specs.\n        - Contributed to the Harvey Mudd College tradition of student-made hammers.\n      \n    \n    \n      Methods\n      \n      \n        - Machined head stock using lathe and milling operations, verified with digital micrometers.\n        - Heat treated hard face, verified HRC hardness, and sandblasted for smooth finish.\n      \n    \n    \n      Result\n      \n      \n        - Delivered a high-quality hammer that scored near perfect in quality of manufacturing.\n        - Now serve as a Machine Shop Proctor, training new students in shop safety."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Portfolio",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joaquin Gonzalez-Salgado",
     "section": "",
-    "text": "Blogs Coming Soon!"
+    "text": "Welcome to my Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in all things electrical and computer engineering. I work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab. Check out my projects below!\n\n\n\n  \n    \n    \n      E49C\n      EV Design Team\n    \n  \n  \n    \n    \n      E80\n      AUV Ocean Floor SONAR\n    \n  \n  \n    \n    \n      E85\n      Digital Level\n    \n  \n  \n    \n    \n      E85\n      Multicycle Processor\n    \n  \n  \n    \n    \n      E79\n      Submersible ROV\n    \n  \n  \n    \n    \n      E4\n      Logic Demo Board\n    \n  \n  \n    \n    \n      E4\n      Machinist Hammer\n    \n  \n\n\n  \n    Open Full Resume in New Tab"
   },
   {
     "objectID": "e155.html",
@@ -126,52 +126,59 @@
     "text": "Coming Soon!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Joaquin Gonzalez-Salgado",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Portfolio",
     "section": "",
-    "text": "Welcome to my Portfolio! I am a rising Junior Engineering major at Harvey Mudd College interested in all things electrical and computer engineering. I work alongside the USDA as a hardware/firmware engineer focused on creating low-noise analog amplifiers for monitoring insect feeding behavior as part of the Analog Circuitry Engineering (ACE) Lab. Check out my projects below!\n\n\n\n  \n    \n    \n      E49C\n      EV Design Team\n    \n  \n  \n    \n    \n      E80\n      AUV Ocean Floor SONAR\n    \n  \n  \n    \n    \n      E85\n      Digital Level\n    \n  \n  \n    \n    \n      E85\n      Multicycle Processor\n    \n  \n  \n    \n    \n      E79\n      Submersible ROV\n    \n  \n  \n    \n    \n      E4\n      Logic Demo Board\n    \n  \n  \n    \n    \n      E4\n      Machinist Hammer\n    \n  \n\n\n  \n    Open Full Resume in New Tab"
+    "text": "Blogs Coming Soon!"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Class Projects",
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Work Experience",
     "section": "",
-    "text": "Overview:\n      Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\n    \n    \n      Skills:\n      EV Design, Battery Technology, Vehicle Dynamics, Fabrication, Embedded Software\n    \n    Coming Soon!\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      - Coming soon.\n    \n    \n      Methods\n      \n      - Coming soon.\n    \n    \n      Result\n      \n      - Coming soon."
+    "text": "Overview:  Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices. Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing. As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\n\nMachine Shop Website →\n\n\n\n \n\n\nOverview:  Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects. Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources.\n\nMakerspace Website →"
   },
   {
-    "objectID": "projects.html#electric-vehicle-design-lab-e49c",
-    "href": "projects.html#electric-vehicle-design-lab-e49c",
-    "title": "Class Projects",
+    "objectID": "experience.html#machine-shop-proctor",
+    "href": "experience.html#machine-shop-proctor",
+    "title": "Work Experience",
     "section": "",
-    "text": "Overview:\n      Team project to build an electric vehicle. Principles of EV design, battery technology, vehicle dynamics, fabrication, wiring, and embedded software development.\n    \n    \n      Skills:\n      EV Design, Battery Technology, Vehicle Dynamics, Fabrication, Embedded Software\n    \n    Coming Soon!\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      - Coming soon.\n    \n    \n      Methods\n      \n      - Coming soon.\n    \n    \n      Result\n      \n      - Coming soon."
+    "text": "Overview:  Supervised safe operation of machining equipment (mills, lathes, bandsaw) by student users, ensuring adherence to shop safety protocols and best practices. Trained peers in proper tool usage, machining techniques, as well as fabrication and tolerancing. As a future improvement proctor: Learn how to use the Big Brother CNC Mill, spot welder, and other advanced machinery.\n\nMachine Shop Website →"
   },
   {
-    "objectID": "projects.html#experimental-engineering-e80",
-    "href": "projects.html#experimental-engineering-e80",
-    "title": "Class Projects",
-    "section": "Experimental Engineering (E80)",
-    "text": "Experimental Engineering (E80)\n\nAUV Ocean Floor SONAR Mapping\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Designed and created an Autonomous Underwater Vehicle (AUV) to create topography maps of the harbor floor using Time-of-flight measurements via SONAR technology (10W Exciter & Electret Mic).\n    \n    Skills:Arduino, MATLAB, SONAR, Embedded Systems, PCB Assembly\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Created an AUV to map harbor floor topography.\n        - Used Time-of-Flight SONAR measurements to generate depth data.\n      \n    \n    \n      Methods\n      \n      \n        - Integrated SONAR transducer and microphone into waterproofed AUV housing.\n        - Programmed microcontroller to record time-of-flight signals and log depth measurements.\n      \n    \n    \n      Result\n      \n      \n        - Successfully generated topography maps of the harbor floor.\n        - Validated low-cost SONAR-based AUV design for real-world underwater mapping."
+    "objectID": "experience.html#makerspace-repair-steward",
+    "href": "experience.html#makerspace-repair-steward",
+    "title": "Work Experience",
+    "section": "",
+    "text": "Overview:  Guided makerspace users in safely operating fabrication tools including laser cutters, 3D printers, and welding equipment, fostering an inclusive and collaborative environment. Oversaw project grants and budget distribution for student projects. Oversaw project grants and budget distribution, supporting student innovation while ensuring responsible and equitable use of resources.\n\nMakerspace Website →"
   },
   {
-    "objectID": "projects.html#digital-electronics-computer-architecture-e85",
-    "href": "projects.html#digital-electronics-computer-architecture-e85",
-    "title": "Class Projects",
-    "section": "Digital Electronics / Computer Architecture (E85)",
-    "text": "Digital Electronics / Computer Architecture (E85)\n\nDigital Level\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Developed an embedded C application to implement a 2D digital level, interfacing a triple-axis accelerometer with a microcontroller to measure tilt along the x and y axes.\n      Designed and wired a complete hardware system on a breadboard, integrating a RED-V development board, LIS3DH accelerometer, and an 8x8 LED matrix.\n    \n    Skills:C/C++, SPI Communication, Calibration, Soldering, Embedded Systems\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Created a digital level mapping tilt angles to an 8x8 LED matrix bubble display.\n        - Bubble motion indicated surface tilt in X and Y axes.\n      \n    \n    \n      Methods\n      \n      \n        - Programmed RED-V ThingPlus in C using SPI to interface with LIS3DH accelerometer.\n        - Implemented real-time signal processing and calibration for smooth bubble motion.\n      \n    \n    \n      Result\n      \n      \n        - Achieved accurate, smooth, reliable bubble display validating full embedded system integration.\n        - Designed a sensitive and practical 2D digital tool with real-world use.\n      \n    \n  \n\n\n\nMulticycle Processor\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Designed a multicycle RISC-V processor in SystemVerilog, creating a hierarchical architecture with a finite-state machine, datapath, ALU, register file, and unified memory adapted from a single-cycle design.\n      Validated processor functionality through simulation and waveform analysis.\n    \n    Skills:SystemVerilog, HDL, Assembly, RISC-V, Quartus FPGA, Questa\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Built a multicycle RISC-V CPU capable of executing arithmetic instructions and managing memory.\n        - Leveraged single-cycle components to construct a modular multicycle architecture.\n      \n    \n    \n      Methods\n      \n      \n        - Wrote SystemVerilog datapath connecting controller, memory, and register file modules.\n        - Debugged by comparing assembly testbenches against waveforms and consulted Quartus RTL schematic.\n      \n    \n    \n      Result\n      \n      \n        - Processor matched waveform expectations confirming correct values at correct addresses.\n        - Deepened understanding of RISC-V architecture and processor design principles."
+    "objectID": "personal.html",
+    "href": "personal.html",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "Overview:  Created a bluetooth speaker by cutting 8 triangular pieces of plywood, and wood glueing them together in a box orientation!\nUtilized the Rockler’s Speaker Set to design and assemble the speaker kit, which connects via AUX and Bluetooth! It’s also portable, as it runs on a lithium ion charged battery.\nThis project involved a lot of wood shop tools, including a Table Saw, Miter Saw, Planar, and much more!\nThis little project has now become a speaker I use day to day!\n\n\n\n\n \n\n\nOverview:  Created a skateboard completely from scratch under the HMC Makerspace Grant! I previously had a skateboard, but felt I needed an upgrade The materials for this assembly were a sheet of plywood, bearings and tires, grip tape, and red paint, and was assembled over the course of 3 weeks. Used the ShopBot (CNC Router Table) to cut out the skateboard frame. This board is now used to travel around the Harvey Mudd campus!"
   },
   {
-    "objectID": "projects.html#systems-engineering-e79",
-    "href": "projects.html#systems-engineering-e79",
-    "title": "Class Projects",
-    "section": "Systems Engineering (E79)",
-    "text": "Systems Engineering (E79)\n\nSubmersible Robot with Kp Control\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Constructed an underwater remotely operated vehicle (ROV) to retrieve temperature, pressure, and other signals in lake environments via the MCP9701 thermistor and MPX5700ASX pressure gauge.\n      Assembled a PCB containing the MCP6002 OpAmp to return output voltages modeled and analyzed in LabVIEW.\n    \n    Skills:LabVIEW, Soldering, PCB Assembly, Oscilloscope, DMM, Breadboarding\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Created a fully waterproof ROV to measure temperature and pressure across varying depths.\n        - Implemented proportional (Kp) control for motor operation.\n      \n    \n    \n      Methods\n      \n      \n        - Modeled ROV vertical motion by changing motor PWM duty cycle in LabVIEW.\n        - Soldered pressure sensor and thermistor circuits to the project PCB.\n      \n    \n    \n      Result\n      \n      \n        - Deployed ROV in a real-world environment and collected valid environmental data.\n        - Gained hands-on experience in PCB assembly, soldering, and oscilloscope use."
+    "objectID": "personal.html#rockler-wooden-speaker",
+    "href": "personal.html#rockler-wooden-speaker",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "Overview:  Created a bluetooth speaker by cutting 8 triangular pieces of plywood, and wood glueing them together in a box orientation!\nUtilized the Rockler’s Speaker Set to design and assemble the speaker kit, which connects via AUX and Bluetooth! It’s also portable, as it runs on a lithium ion charged battery.\nThis project involved a lot of wood shop tools, including a Table Saw, Miter Saw, Planar, and much more!\nThis little project has now become a speaker I use day to day!"
   },
   {
-    "objectID": "projects.html#engineering-design-manufacturing-e4",
-    "href": "projects.html#engineering-design-manufacturing-e4",
-    "title": "Class Projects",
-    "section": "Engineering Design & Manufacturing (E4)",
-    "text": "Engineering Design & Manufacturing (E4)\n\nDigital Logic Demonstration Board\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Designed and assembled a logic-gate demonstration board using 74HC Series integrated circuits, a 555 timer, and a potentiometer-based clock input.\n      Engineered intuitive controls with input switches, banana cables, and LEDs to clearly display output states.\n      Delivered a durable teaching tool now used by Professor Stone for the Digital Logic and Computer Architecture course.\n    \n    Skills:Digital Logic, PCB Design, 74HC ICs, 555 Timer, Soldering\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Built a logic-gate demonstration board using 74HC Series ICs and a 555 timer.\n        - Incorporated input switches, banana cable ports, and LEDs for clear output visualization.\n      \n    \n    \n      Methods\n      \n      \n        - Designed board layout for intuitive student interaction and clear signal flow.\n        - Wired and soldered 74HC gates, 555 timer clock, and potentiometer for adjustable frequency.\n      \n    \n    \n      Result\n      \n      \n        - Delivered a durable teaching tool now actively used by Professor Stone in E85 lectures.\n        - Reinforced understanding of combinational logic design and hands-on fabrication.\n      \n    \n  \n\n\n\nE4 Machinist Hammer\n\n\n\n  \n    \n  \n  \n    \n      Overview:\n      Manufactured a precision machinist hammer from clear oak, AISI 1015 steel, AISI 4340 steel, and nylon, adhering to detailed engineering drawings, dimensional tolerances, and safety requirements.\n      Applied turning, facing, milling, tapping, and heat treatment processes to achieve specified mechanical properties.\n    \n    Skills:GD&T, Lathe, Mill, Bandsaw, Taps, Digital Micrometers, HRC Hardness Tester, Heat Treatment\n    \n      Show More\n    \n  \n\n\n\n  \n    \n      Background\n      \n      \n        - Manufactured a functional machinist hammer from oak, steel, and nylon to precise GD&T specs.\n        - Contributed to the Harvey Mudd College tradition of student-made hammers.\n      \n    \n    \n      Methods\n      \n      \n        - Machined head stock using lathe and milling operations, verified with digital micrometers.\n        - Heat treated hard face, verified HRC hardness, and sandblasted for smooth finish.\n      \n    \n    \n      Result\n      \n      \n        - Delivered a high-quality hammer that scored near perfect in quality of manufacturing.\n        - Now serve as a Machine Shop Proctor, training new students in shop safety."
+    "objectID": "personal.html#red-ish-skateboard",
+    "href": "personal.html#red-ish-skateboard",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "Overview:  Created a skateboard completely from scratch under the HMC Makerspace Grant! I previously had a skateboard, but felt I needed an upgrade The materials for this assembly were a sheet of plywood, bearings and tires, grip tape, and red paint, and was assembled over the course of 3 weeks. Used the ShopBot (CNC Router Table) to cut out the skateboard frame. This board is now used to travel around the Harvey Mudd campus!"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications & Reports",
+    "section": "",
+    "text": "Journal Article\n  Stress, Cognitive Load, and Specifications Grading in an Engineering Laboratory Course\n  \n    Cleo McHenry, Sara Morishige, Jasmine Sampat, Joaquin Gonzalez-Salgado, Leah Uriarte, Matthew Spencer\n  \n  IEEE Transactions on Education, 2025\n  \n    This paper presents a controlled two-year experiment at Harvey Mudd College studying how two evidence-based\n    interventions — simplified lab manuals and specifications grading — affected student stress and cognitive load\n    in a required sophomore engineering lab course (E80). Weekly validated surveys showed that stress was\n    significantly reduced in six of seven labs, and cognitive load dropped significantly in three. Students in\n    the treatment cohort also posted meaningfully higher scores on a summative technical memo, suggesting the\n    interventions did not harm learning. I contributed as a co-author on the study design, data collection,\n    and analysis.\n  \n  \n    Read Paper (PDF)\n  \n\n\n\n\n  Report\n  Autonomous Surface & Dive Robot for Underwater Depth Mapping\n  \n    Joaquin Gonzalez-Salgado, Esteban Gonzalez, Ayla Greenstein, Kathy Guo\n  \n  E80: Experimental Engineering, Harvey Mudd College — Spring 2026\n  \n    This report documents the design, construction, and field deployment of an autonomous underwater vehicle\n    (AUV) built to map the seafloor topography of Dana Point Harbor. The vehicle integrated a SONAR depth\n    sensor (CME1538-100LB microphone + daex25W-8 speaker), an MPX5700ASX pressure sensor for dive depth,\n    and a thermistor for temperature profiling across depth. The AUV featured four horizontal and two vertical\n    thrusters, a low center of gravity for surface stability, and a winch-based recovery system. Deployment\n    at Dana Point produced a topographic depth map of the harbor floor, with real-time data logging to an\n    onboard SD card. Sensor drift from ocean currents affected positional accuracy, motivating future work\n    on closed-loop horizontal control.\n  \n  \n    View Poster (PDF)\n    See Project Page"
   }
 ]
