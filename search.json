@@ -74,21 +74,14 @@
     "href": "pcb.html",
     "title": "PCB Designs",
     "section": "",
-    "text": "Overview:\n  A single-rail mixed-signal board designed in collaboration with SJ Caldwell, built to interface with the\n  Nordic nRF5340 DK.\n  As an AC/DC Electropenetrograph,\n  its purpose is to inject a small electrical stimulus through a live insect via the TX chain, then capture the\n  biologically-altered signal on the RX chain for analysis by entomologists at the USDA.\n\n\n  Key Features:\n  Single-rail power supply, onboard battery charger & monitor, DDS module, analog & digital Mux,\n  DAC output stage, rheostats, I²C & SPI interfaces, nRF5340 DK integration.\n\n\n  Coming soon: IB1 (Integrated Board 1) — a fully integrated successor that will physically\n  incorporate the Nordic nRF5340 SoC directly on-board."
-  },
-  {
-    "objectID": "pcb.html#single-rail-2-sr2-acdc-electropenetrograph",
-    "href": "pcb.html#single-rail-2-sr2-acdc-electropenetrograph",
-    "title": "PCB Designs",
-    "section": "",
-    "text": "Overview:\n  A single-rail mixed-signal board designed in collaboration with SJ Caldwell, built to interface with the\n  Nordic nRF5340 DK.\n  As an AC/DC Electropenetrograph,\n  its purpose is to inject a small electrical stimulus through a live insect via the TX chain, then capture the\n  biologically-altered signal on the RX chain for analysis by entomologists at the USDA.\n\n\n  Key Features:\n  Single-rail power supply, onboard battery charger & monitor, DDS module, analog & digital Mux,\n  DAC output stage, rheostats, I²C & SPI interfaces, nRF5340 DK integration.\n\n\n  Coming soon: IB1 (Integrated Board 1) — a fully integrated successor that will physically\n  incorporate the Nordic nRF5340 SoC directly on-board."
+    "text": "Overview:\n  (My first PCB!) A single-cell LiPo battery charger and power management board featuring USB-C input, a dedicated charge IC, 5V and 3.7V regulated outputs, fuel gauge IC with I²C interface, and status indicator LEDs. Designed for use as a standalone supply module in embedded systems projects.\n\n\n  Key Features:\n  USB-C charging input, dual regulated outputs (5V / 3.7V), I²C fuel gauge, charge/power-good status LEDs, onboard enable/alert header."
   },
   {
     "objectID": "pcb.html#lipo-battery-charger-monitor",
     "href": "pcb.html#lipo-battery-charger-monitor",
     "title": "PCB Designs",
-    "section": "LiPo Battery Charger & Monitor",
-    "text": "LiPo Battery Charger & Monitor\n\n  \n    \n  \n  \n    \n  \n\n\n\n  Overview:\n  (My first PCB!) A single-cell LiPo battery charger and power management board featuring USB-C input, a dedicated charge IC, 5V and 3.7V regulated outputs, fuel gauge IC with I²C interface, and status indicator LEDs. Designed for use as a standalone supply module in embedded systems projects.\n\n\n  Key Features:\n  USB-C charging input, dual regulated outputs (5V / 3.7V), I²C fuel gauge, charge/power-good status LEDs, onboard enable/alert header."
+    "section": "",
+    "text": "Overview:\n  (My first PCB!) A single-cell LiPo battery charger and power management board featuring USB-C input, a dedicated charge IC, 5V and 3.7V regulated outputs, fuel gauge IC with I²C interface, and status indicator LEDs. Designed for use as a standalone supply module in embedded systems projects.\n\n\n  Key Features:\n  USB-C charging input, dual regulated outputs (5V / 3.7V), I²C fuel gauge, charge/power-good status LEDs, onboard enable/alert header."
   },
   {
     "objectID": "labs/lab6/lab6.html",
