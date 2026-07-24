@@ -74,14 +74,21 @@
     "href": "pcb.html",
     "title": "PCB Designs",
     "section": "",
-    "text": "Overview:\n  (My first PCB!) A single-cell LiPo battery charger and power management board featuring USB-C input, a dedicated charge IC, 5V and 3.7V regulated outputs, fuel gauge IC with I²C interface, and status indicator LEDs. Designed for use as a standalone supply module in embedded systems projects.\n\n\n  Key Features:\n  USB-C charging input, dual regulated outputs (5V / 3.7V), I²C fuel gauge, charge/power-good status LEDs, onboard enable/alert header."
+    "text": "Overview:\n  A mixed-signal electropenetrograph\n  board designed to interface with the\n  Nordic nRF5340 DK.\n  The board combines a signal generation chain with a synchronized acquisition chain, using onboard control logic to\n  configure gain, switching, and calibration on the fly.\n\n\n  Key Features:\n  Onboard battery charger & monitor ICs, DDS-based signal generation, analog & digital multiplexing,\n  DAC output stage, digitally controlled rheostats, I²C & SPI control interfaces, nRF5340 DK integration."
+  },
+  {
+    "objectID": "pcb.html#electropenetrograph",
+    "href": "pcb.html#electropenetrograph",
+    "title": "PCB Designs",
+    "section": "",
+    "text": "Overview:\n  A mixed-signal electropenetrograph\n  board designed to interface with the\n  Nordic nRF5340 DK.\n  The board combines a signal generation chain with a synchronized acquisition chain, using onboard control logic to\n  configure gain, switching, and calibration on the fly.\n\n\n  Key Features:\n  Onboard battery charger & monitor ICs, DDS-based signal generation, analog & digital multiplexing,\n  DAC output stage, digitally controlled rheostats, I²C & SPI control interfaces, nRF5340 DK integration."
   },
   {
     "objectID": "pcb.html#lipo-battery-charger-monitor",
     "href": "pcb.html#lipo-battery-charger-monitor",
     "title": "PCB Designs",
-    "section": "",
-    "text": "Overview:\n  (My first PCB!) A single-cell LiPo battery charger and power management board featuring USB-C input, a dedicated charge IC, 5V and 3.7V regulated outputs, fuel gauge IC with I²C interface, and status indicator LEDs. Designed for use as a standalone supply module in embedded systems projects.\n\n\n  Key Features:\n  USB-C charging input, dual regulated outputs (5V / 3.7V), I²C fuel gauge, charge/power-good status LEDs, onboard enable/alert header."
+    "section": "LiPo Battery Charger & Monitor",
+    "text": "LiPo Battery Charger & Monitor\n\n  \n    \n  \n  \n    \n  \n\n\n\n  Overview:\n  (My first PCB!) A single-cell LiPo battery charger and power management board featuring USB-C input, a dedicated charge IC, 5V and 3.7V regulated outputs, fuel gauge IC with I²C interface, and status indicator LEDs. Designed for use as a standalone supply module in embedded systems projects.\n\n\n  Key Features:\n  USB-C charging input, dual regulated outputs (5V / 3.7V), I²C fuel gauge, charge/power-good status LEDs, onboard enable/alert header."
   },
   {
     "objectID": "labs/lab6/lab6.html",
