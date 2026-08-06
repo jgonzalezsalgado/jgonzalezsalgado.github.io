@@ -4,6 +4,32 @@ toc: false
 format: html
 ---
 
+## FI1 (Fully Integrated 1)
+
+```{=html}
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px; margin-bottom: 1em;">
+  <div style="flex: 1; min-width: 200px;">
+    <img src="images/pcb/fi1.png" alt="FI1 PCB Layout" style="width:100%; border-radius: 15px;">
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <img src="images/pcb/fi1f.png" alt="FI1 Board Assembly" style="width:100%; border-radius: 15px;">
+  </div>
+</div>
+
+<p>
+  <strong>Overview:</strong><br>
+  A fully integrated revision of the electropenetrograph platform, bringing the previously
+  external nRF5340 DK onboard. Currently in manufacturing and assembly.
+</p>
+<p>
+  <strong>Key Features:</strong><br>
+  Onboard nRF5340 module with integrated antenna, SWD programming header, onboard flash memory,
+  I&sup2;C &amp; SPI control interfaces.
+</p>
+```
+
+---
+
 ## Electropenetrograph
 
 ```{=html}
