@@ -74,14 +74,21 @@
     "href": "pcb.html",
     "title": "PCB Designs",
     "section": "",
-    "text": "Overview:\n  A mixed-signal electropenetrograph\n  board designed to interface with the\n  Nordic nRF5340 DK.\n  The board combines a signal generation chain with a synchronized acquisition chain, using onboard control logic to\n  configure gain, switching, and calibration on the fly.\n\n\n  Key Features:\n  Onboard battery charger & monitor ICs, DDS-based signal generation, analog & digital multiplexing,\n  DAC output stage, digitally controlled rheostats, I²C & SPI control interfaces, nRF5340 DK integration."
+    "text": "Overview:\n  A fully integrated revision of the electropenetrograph platform, bringing the previously\n  external nRF5340 DK onboard. Currently in manufacturing and assembly.\n\n\n  Key Features:\n  Onboard nRF5340 module with integrated antenna, SWD programming header, onboard flash memory,\n  I²C & SPI control interfaces."
+  },
+  {
+    "objectID": "pcb.html#fi1-fully-integrated-1",
+    "href": "pcb.html#fi1-fully-integrated-1",
+    "title": "PCB Designs",
+    "section": "",
+    "text": "Overview:\n  A fully integrated revision of the electropenetrograph platform, bringing the previously\n  external nRF5340 DK onboard. Currently in manufacturing and assembly.\n\n\n  Key Features:\n  Onboard nRF5340 module with integrated antenna, SWD programming header, onboard flash memory,\n  I²C & SPI control interfaces."
   },
   {
     "objectID": "pcb.html#electropenetrograph",
     "href": "pcb.html#electropenetrograph",
     "title": "PCB Designs",
-    "section": "",
-    "text": "Overview:\n  A mixed-signal electropenetrograph\n  board designed to interface with the\n  Nordic nRF5340 DK.\n  The board combines a signal generation chain with a synchronized acquisition chain, using onboard control logic to\n  configure gain, switching, and calibration on the fly.\n\n\n  Key Features:\n  Onboard battery charger & monitor ICs, DDS-based signal generation, analog & digital multiplexing,\n  DAC output stage, digitally controlled rheostats, I²C & SPI control interfaces, nRF5340 DK integration."
+    "section": "Electropenetrograph",
+    "text": "Electropenetrograph\n\n  \n    \n  \n  \n    \n  \n\n\n\n  Overview:\n  A mixed-signal electropenetrograph\n  board designed to interface with the\n  Nordic nRF5340 DK.\n  The board combines a signal generation chain with a synchronized acquisition chain, using onboard control logic to\n  configure gain, switching, and calibration on the fly.\n\n\n  Key Features:\n  Onboard battery charger & monitor ICs, DDS-based signal generation, analog & digital multiplexing,\n  DAC output stage, digitally controlled rheostats, I²C & SPI control interfaces, nRF5340 DK integration."
   },
   {
     "objectID": "pcb.html#lipo-battery-charger-monitor",
