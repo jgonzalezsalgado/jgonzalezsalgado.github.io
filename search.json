@@ -60,7 +60,7 @@
     "href": "posts/post3.html",
     "title": "Starting Microprocesor Labs!",
     "section": "",
-    "text": "This fall semester (2026), I will be taking an upper division course called Microprocessors Systems: Design & Application which focuses on microcontrollers and embedded system design, and how to apply HDL and logic to the real world. This summer, I’m doing some of the labs early (with approval) to better understand embedded systems and microcontrollers! My goal this summer (and future semester) is to focus on having a thorough engineering workflow. I want to not only understand and create embedded and physical systems, but also document these processes thoroughly."
+    "text": "This fall semester (2026), I will be taking an upper division course called Microprocessors Systems: Design & Application which focuses on microcontrollers and embedded system design, and how to apply HDL and logic to the real world. My goal this fall is to focus on having a thorough engineering workflow. I want to not only understand and create embedded and physical systems, but also document these processes thoroughly."
   },
   {
     "objectID": "posts/post1.html",
@@ -319,7 +319,7 @@
     "href": "blog.html",
     "title": "My Blog! See what I’ve been up to:",
     "section": "",
-    "text": "Starting Microprocesor Labs!\n\n\nBeginning my Microprocessors Journey\n\n\n\n\n\nMay 14, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDana Point Harbor Deployment\n\n\nDeploying our E80 Robot at Dana Point!\n\n\n\n\n\nApr 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nVisit to NVIDIA Voyager\n\n\nMudd Job Shadow\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nVisit to Harbinger Motors\n\n\nMudd Job Shadow\n\n\n\n\n\nMay 23, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Starting Microprocesor Labs!\n\n\nBeginning my Microprocessors Journey\n\n\n\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDana Point Harbor Deployment\n\n\nDeploying our E80 Robot at Dana Point!\n\n\n\n\n\nApr 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nVisit to NVIDIA Voyager\n\n\nMudd Job Shadow\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nVisit to Harbinger Motors\n\n\nMudd Job Shadow\n\n\n\n\n\nMay 23, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "experience.html",
@@ -375,42 +375,42 @@
     "href": "labs/lab1/lab1.html",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "",
-    "text": "In this lab, a development board was assembled by soldering SMT and THT components, and a SystemVerilog design was implemented on the UPduino v3.1 FPGA to demonstrate the functionality of that board. Code was written to utilize the high-speed oscillator to control three on-board LEDS and a 7-Segment Display using 4 DIP switch inputs on the board."
+    "text": "In this lab, a development board that combines an FPGA and microcontroller was assembled by soldering surface mount and through-hole components, and a SystemVerilog design was implemented on the UPduino v3.1 FPGA to demonstrate the functionality of that board. Code was written to control three on-board LEDS and a 7-Segment Display using 4 DIP switch inputs on the board."
   },
   {
     "objectID": "labs/lab1/lab1.html#introduction",
     "href": "labs/lab1/lab1.html#introduction",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "",
-    "text": "In this lab, a development board was assembled by soldering SMT and THT components, and a SystemVerilog design was implemented on the UPduino v3.1 FPGA to demonstrate the functionality of that board. Code was written to utilize the high-speed oscillator to control three on-board LEDS and a 7-Segment Display using 4 DIP switch inputs on the board."
+    "text": "In this lab, a development board that combines an FPGA and microcontroller was assembled by soldering surface mount and through-hole components, and a SystemVerilog design was implemented on the UPduino v3.1 FPGA to demonstrate the functionality of that board. Code was written to control three on-board LEDS and a 7-Segment Display using 4 DIP switch inputs on the board."
   },
   {
     "objectID": "labs/lab1/lab1.html#design-and-testing-methodology",
     "href": "labs/lab1/lab1.html#design-and-testing-methodology",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "Design and Testing Methodology",
-    "text": "Design and Testing Methodology\n\nDevelopment Board Interface\nTo start, the development board system consisted of Surface-Mount (SMT) and Through-Hole (THT) components that were hand-soldered onto the board. Two development boards are integrated into this PCB using female header pins: The UPduino v3.1 FPGA and the Nucleo-L432KC MCU. The resulting development board is shown in Figure 1:\n\n\n\n\n\n\nFigure 1: Finished Development Board with FPGA & MCU\n\n\n\n\n\nFPGA Implementation\n\n\n\nTable 1: Digital Inputs and Outputs for Lab 1\n\n\n\n\n\n\n\n\n\n\n\n\nSignal Name\nSignal Type\nDescription\n\n\n\n\n\n\nint_osc\ninput\n48 MHz clock on FPGA\n\n\n\n\ns[3:0]\ninput\nFour DIP switches (SW6)\n\n\n\n\nled[2:0]\noutput\n3 On-Board LEDS\n\n\n\n\nseg[6:0]\noutput\nCommon-Anode 7-segment display segments\n\n\n\n\n\n\n\n\nThe on-board high-speed oscillator (HSOSC) from the iCE40 UltraPlus primitive library was used to generate a clock signal at 24 MHz. Then, a counter was used to divide the high frequency clock signal down so that the blinking frequency could be easily visualized using one of the on-board LEDs.\nThe design was developed using a simple clock divider module which drives the external LED."
+    "text": "Design and Testing Methodology\n\nDevelopment Board Interface\nTo start, the development board system consisted of voltage regulators, buttons, and switches that were hand-soldered onto the board. The two development boards integrated into this PCB were the UPduino v3.1 FPGA and the Nucleo-L432KC MCU. The finalized setup is shown below in Figure 1:\n\n\n\n\n\n\nFigure 1: Finished Development Board with FPGA & MCU\n\n\n\n\n\nFPGA Implementation\n\n\n\nTable 1: Digital Inputs and Outputs for Lab 1\n\n\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\n\n\ns[3:0]\ninput\nFour DIP switches\n\n\n\n\nled[2:0]\noutput\n3 On-Board LEDS\n\n\n\n\nseg[6:0]\noutput\n7-segment display (Common Anode)\n\n\n\n\n\n\n\n\nThe high-speed oscillator (HSOSC) from the iCE40 Technology Library was used to generate a clock signal at 24 MHz. Then, a counter was used to divide the high frequency clock signal down so that the blinking frequency could be easily visualized using one of the on-board LEDs.\nThe design was developed using a simple clock divider module which drives the external LED."
   },
   {
     "objectID": "labs/lab1/lab1.html#technical-documentation",
     "href": "labs/lab1/lab1.html#technical-documentation",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "Technical Documentation:",
-    "text": "Technical Documentation:\n\n\n\n\n\n\nNoteSource Code\n\n\n\nThe source code for the project can be found in the associated Github Repo.\n\n\n\nBlock Diagram\nLab 1 Block Diagram // Joaquin Gonzalez-Salgado // September x 2025\n\n\n\n\n\n\nFigure 2: Top-Level Block Diagram of’Lab1_jg’ and ‘sevenSegment’.\n\n\n\nThe block diagram in Figure 2 demonstrates the overall architecture of the design. The top-level module lab1_jg includes three submodules: a high-speed oscillator block (HSOSC), a sequential logic counter which acts as a clock divider, and the combinational logic for the 7-Segment display (sevenSegment).\n\n\nSchematic\nLab 1 Wiring Schematic // Joaquin Gonzalez-Salgado // May 22 2026\n\n\n\n\n\n\nFigure 3: Schematic of FPGA, DIP switches, and 7-segment wiring.\n\n\n\nFigure 3 Shows the wiring approach for this lab. Each on-board LED is connected to an SMT 1 k\\(\\Omega\\) resistor via the development board.\nAs for the 7-Segment display, 5 to 20 mA of current was advised in the lab manual. Since the FPGA GPIO pins output 3.3V, Ohm’s law can be used to find an effective resistor for this current. (For this calculation, I chose 13 mA of current). This is shown in Equation 1:\n\\[\nV = IR \\implies R = \\frac{V}{I} = \\frac{3.3\\,\\text{V} - 2.0\\,\\text{V}}{0.013\\,\\text{A}} = 100\\,\\Omega\n\\tag{1}\\]"
+    "text": "Technical Documentation:\n\n\n\n\n\n\nNoteSource Code\n\n\n\n\n\nThe source code for the project can be found in the associated Github Repo.\n\n\n\n\nBlock Diagram\nLab 1 Block Diagram // Joaquin Gonzalez-Salgado // September 1 2025\n\n\n\n\n\n\nFigure 2: Top-Level Block Diagram of’Lab1_jg’ and ‘sevenSegment’.\n\n\n\nThe block diagram in Figure 2 demonstrates the overall architecture of the design. The top-level module lab1_jg includes three submodules: a high-speed oscillator block (HSOSC), a sequential logic counter which acts as a clock divider, and the combinational logic for the 7-Segment display (sevenSegment).\n\n\nSchematic\nLab 1 Wiring Schematic // Joaquin Gonzalez-Salgado // September 1 2025\n\n\n\n\n\n\nFigure 3: Schematic of FPGA, DIP switches, and 7-segment wiring.\n\n\n\nFigure 3 Shows the wiring approach for this lab. Each on-board LED is connected to an SMT 1 k\\(\\Omega\\) resistor via the development board.\nAs for the 7-Segment display, 5 to 20 mA of current was advised in the lab manual. Since the common anode is tied to 3.3V, Ohm’s law can be used to find an effective resistor for this current. (For this calculation, I chose 13 mA of current). This is shown in Equation 1:\n\\[\nV = IR \\implies R = \\frac{V}{I} = \\frac{3.3\\,\\text{V} - 2.0\\,\\text{V}}{0.013\\,\\text{A}} = 100\\,\\Omega\n\\tag{1}\\]\nThe calculation for the LED frequency is done by first dividing the clock using the provided HSOSC primitive, then dividing by 2.4 to get the desired maximum count value:\n\\[\nCount_{Max} = \\frac{24MHz}{2.4Hz} = 10,000,000\n\\]\nThis requires 24 bits, which is \\[\n2^{24} = 16,777,216\n\\]"
   },
   {
     "objectID": "labs/lab1/lab1.html#results-and-discussion",
     "href": "labs/lab1/lab1.html#results-and-discussion",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "Results and Discussion",
-    "text": "Results and Discussion\n\n\n\n\n\n\nNoteResults and Discussion\n\n\n\nThe Design was a Success!\n\n\nThe design successfully met all objectives. The LED truth table was verified both in Questa and the on-board LEDs. led[0] correctly implements XOR of S1 and S0, and led[1] correctly illuminates only when both S2 and S3 are high (AND). led[2] blinks at approximately 2.4 Hz, verified by observing the counter period in simulation. All 16 hexadecimal digits (0–F) were confirmed to display correctly on the 7-segment display, with distinguishable representations for visually similar digits such as b vs 8.\n\nTestbench Simulation\n\n\n\n\n\n\nFigure 4: A screenshot of a QuestaSim simulation demonstrating the blinking output signal. Note that the timescale for the clock divider was modified to divide by 4.\n\n\n\nFigure 4 shows a screenshot of the QuestaSim simulation. Asserts were also used to verify all 8 LED truth table cases, and all decoder outputs."
+    "text": "Results and Discussion\n\n\n\n\n\n\nNoteResults and Discussion\n\n\n\nThe Design was a Success!\n\n\nThe design successfully met all objectives. The LED truth table was verified both in Questa and the on-board LEDs. led[0] correctly implements XOR of S1 and S0, and led[1] correctly illuminates only when both S2 and S3 are high (AND). led[2] blinks at approximately 2.4 Hz, verified by observing the counter period in simulation. The enable and reset work as intended. All 16 hexadecimal digits (0–F) were confirmed to display correctly on the 7-segment display, with distinguishable representations for visually similar digits such as b vs 8.\n\nTestbench Simulation\n\n\n\n\n\n\nFigure 4: A screenshot of a QuestaSim simulation demonstrating the blinking output signal. Note that the timescale for the clock divider was modified to divide by 4.\n\n\n\nFigure 4 shows a screenshot of the QuestaSim simulation. Asserts were also used to verify all 8 LED truth table cases, and all decoder outputs."
   },
   {
     "objectID": "labs/lab1/lab1.html#conclusion",
     "href": "labs/lab1/lab1.html#conclusion",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\n\n\n\n\nNoteHours Spent on Lab\n\n\n\nThis lab took 20 hours. Soldering on the components to the developoment board required a lot of time, and setting up the Lattice Radiant and Programmer Environments took a bit to get used to. A huge chunk of time was dedicated to debugging USB Serial Driver issues!"
+    "text": "Conclusion\n\n\n\n\n\n\nNoteHours Spent on Lab\n\n\n\nThis lab took 10 hours. Soldering on the components to the developoment board required a lot of time, and setting up openFPGALoader took a bit as well."
   },
   {
     "objectID": "labs/lab1/lab1.html#ai-prototype-summary",

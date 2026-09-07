@@ -398,13 +398,13 @@ window.Quarto = {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>In this lab, a development board was assembled by soldering SMT and THT components, and a SystemVerilog design was implemented on the <code>UPduino v3.1 FPGA</code> to demonstrate the functionality of that board. Code was written to utilize the high-speed oscillator to control three on-board LEDS and a 7-Segment Display using 4 DIP switch inputs on the board.</p>
+<p>In this lab, a development board that combines an FPGA and microcontroller was assembled by soldering surface mount and through-hole components, and a SystemVerilog design was implemented on the <a href="https://tinyvision.ai/products/fpga-development-board-upduino-v3-1?srsltid=AfmBOoqXjkh4n-9gW1HjXNOWm0b4ySK_AJRF_WvL9qQCIZqjqcqFcVpX">UPduino v3.1 FPGA</a> to demonstrate the functionality of that board. Code was written to control three on-board LEDS and a 7-Segment Display using 4 DIP switch inputs on the board.</p>
 </section>
 <section id="design-and-testing-methodology" class="level2">
 <h2 class="anchored" data-anchor-id="design-and-testing-methodology">Design and Testing Methodology</h2>
 <section id="development-board-interface" class="level3">
 <h3 class="anchored" data-anchor-id="development-board-interface">Development Board Interface</h3>
-<p>To start, the development board system consisted of Surface-Mount (SMT) and Through-Hole (THT) components that were hand-soldered onto the board. Two development boards are integrated into this PCB using female header pins: The <code>UPduino v3.1 FPGA</code> and the <code>Nucleo-L432KC MCU</code>. The resulting development board is shown in <a href="#fig-dev-board" class="quarto-xref">Figure&nbsp;1</a>:</p>
+<p>To start, the development board system consisted of voltage regulators, buttons, and switches that were hand-soldered onto the board. The two development boards integrated into this PCB were the <a href="https://tinyvision.ai/products/fpga-development-board-upduino-v3-1?srsltid=AfmBOoqXjkh4n-9gW1HjXNOWm0b4ySK_AJRF_WvL9qQCIZqjqcqFcVpX">UPduino v3.1 FPGA</a> and the <a href="https://www.mouser.com/en/ProductDetail/STMicroelectronics/NUCLEO-L432KC?qs=qzCNEk%252BRr%252BajjPvxjwWK5g%3D%3D&amp;utm_id=22340414368&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_marketing_tactic=amercorp&amp;gad_source=1&amp;gad_campaignid=22336774796&amp;gbraid=0AAAAADn_wf3b3tpt4xUWa6YQrI_bHRImc&amp;gclid=Cj0KCQjw79nUBhCgARIsADSHka19zvyxDejf-t5XK-hC_RSrzwub7JaLu_vPdxuKvjm12jsPfirJE8kaAgNWEALw_wcB">Nucleo-L432KC MCU</a>. The finalized setup is shown below in <a href="#fig-dev-board" class="quarto-xref">Figure&nbsp;1</a>:</p>
 <div id="fig-dev-board" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-dev-board-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -434,8 +434,8 @@ Table&nbsp;1: Digital Inputs and Outputs for Lab 1
 </colgroup>
 <thead>
 <tr class="header">
-<th>Signal Name</th>
-<th>Signal Type</th>
+<th>Name</th>
+<th>Type</th>
 <th>Description</th>
 <th></th>
 <th></th>
@@ -443,30 +443,23 @@ Table&nbsp;1: Digital Inputs and Outputs for Lab 1
 </thead>
 <tbody>
 <tr class="odd">
-<td>int_osc</td>
+<td>s[3:0]</td>
 <td>input</td>
-<td>48 MHz clock on FPGA</td>
+<td>Four DIP switches</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>s[3:0]</td>
-<td>input</td>
-<td>Four DIP switches (SW6)</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>led[2:0]</td>
 <td>output</td>
 <td>3 On-Board LEDS</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>seg[6:0]</td>
 <td>output</td>
-<td>Common-Anode 7-segment display segments</td>
+<td>7-segment display (Common Anode)</td>
 <td></td>
 <td></td>
 </tr>
@@ -475,28 +468,31 @@ Table&nbsp;1: Digital Inputs and Outputs for Lab 1
 </div>
 </figure>
 </div>
-<p>The on-board high-speed oscillator (<code>HSOSC</code>) from the iCE40 UltraPlus primitive library was used to generate a clock signal at 24 MHz. Then, a counter was used to divide the high frequency clock signal down so that the blinking frequency could be easily visualized using one of the on-board LEDs.</p>
+<p>The high-speed oscillator (<code>HSOSC</code>) from the iCE40 Technology Library was used to generate a clock signal at 24 MHz. Then, a counter was used to divide the high frequency clock signal down so that the blinking frequency could be easily visualized using one of the on-board LEDs.</p>
 <p>The design was developed using a simple clock divider module which drives the external LED.</p>
 </section>
 </section>
 <section id="technical-documentation" class="level2">
 <h2 class="anchored" data-anchor-id="technical-documentation">Technical Documentation:</h2>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Note</span>Source Code
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The source code for the project can be found in the associated <a href="https://github.com/jgonzalezsalgado/e155-Lab1">Github Repo</a>.</p>
+<p>The source code for the project can be found in the associated <a href="https://github.com/jgonzs/Microprocessor-Projects">Github Repo</a>.</p>
+</div>
 </div>
 </div>
 <section id="block-diagram" class="level3">
 <h3 class="anchored" data-anchor-id="block-diagram">Block Diagram</h3>
-<p><em>Lab 1 Block Diagram // Joaquin Gonzalez-Salgado // September x 2025</em></p>
+<p><em>Lab 1 Block Diagram // Joaquin Gonzalez-Salgado // September 1 2025</em></p>
 <div id="fig-block-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-block-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -511,7 +507,7 @@ Figure&nbsp;2: Top-Level Block Diagram of’Lab1_jg’ and ‘sevenSegment’.
 </section>
 <section id="schematic" class="level3">
 <h3 class="anchored" data-anchor-id="schematic">Schematic</h3>
-<p><em>Lab 1 Wiring Schematic // Joaquin Gonzalez-Salgado // May 22 2026</em></p>
+<p><em>Lab 1 Wiring Schematic // Joaquin Gonzalez-Salgado // September 1 2025</em></p>
 <div id="fig-schematic" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-schematic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -523,10 +519,17 @@ Figure&nbsp;3: Schematic of FPGA, DIP switches, and 7-segment wiring.
 </figure>
 </div>
 <p><a href="#fig-schematic" class="quarto-xref">Figure&nbsp;3</a> Shows the wiring approach for this lab. Each on-board LED is connected to an SMT 1 k<span class="math inline">\(\Omega\)</span> resistor via the development board.</p>
-<p>As for the 7-Segment display, 5 to 20 mA of current was advised in the lab manual. Since the FPGA GPIO pins output 3.3V, Ohm’s law can be used to find an effective resistor for this current. (For this calculation, I chose 13 mA of current). This is shown in <a href="#eq-resistor" class="quarto-xref">Equation&nbsp;1</a>:</p>
+<p>As for the 7-Segment display, 5 to 20 mA of current was advised in the lab manual. Since the common anode is tied to 3.3V, Ohm’s law can be used to find an effective resistor for this current. (For this calculation, I chose 13 mA of current). This is shown in <a href="#eq-resistor" class="quarto-xref">Equation&nbsp;1</a>:</p>
 <p><span id="eq-resistor"><span class="math display">\[
 V = IR \implies R = \frac{V}{I} = \frac{3.3\,\text{V} - 2.0\,\text{V}}{0.013\,\text{A}} = 100\,\Omega
 \tag{1}\]</span></span></p>
+<p>The calculation for the LED frequency is done by first dividing the clock using the provided HSOSC primitive, then dividing by 2.4 to get the desired maximum count value:</p>
+<p><span class="math display">\[
+Count_{Max} = \frac{24MHz}{2.4Hz} = 10,000,000
+\]</span></p>
+<p>This requires 24 bits, which is <span class="math display">\[
+2^{24} = 16,777,216
+\]</span></p>
 </section>
 </section>
 <section id="results-and-discussion" class="level2">
@@ -544,7 +547,7 @@ V = IR \implies R = \frac{V}{I} = \frac{3.3\,\text{V} - 2.0\,\text{V}}{0.013\,\t
 <p>The Design was a Success!</p>
 </div>
 </div>
-<p>The design successfully met all objectives. The LED truth table was verified both in Questa and the on-board LEDs. <code>led[0]</code> correctly implements XOR of S1 and S0, and <code>led[1]</code> correctly illuminates only when both S2 and S3 are high (AND). <code>led[2]</code> blinks at approximately 2.4 Hz, verified by observing the counter period in simulation. All 16 hexadecimal digits (0–F) were confirmed to display correctly on the 7-segment display, with distinguishable representations for visually similar digits such as b vs 8.</p>
+<p>The design successfully met all objectives. The LED truth table was verified both in Questa and the on-board LEDs. <code>led[0]</code> correctly implements XOR of S1 and S0, and <code>led[1]</code> correctly illuminates only when both S2 and S3 are high (AND). <code>led[2]</code> blinks at approximately 2.4 Hz, verified by observing the counter period in simulation. The enable and reset work as intended. All 16 hexadecimal digits (0–F) were confirmed to display correctly on the 7-segment display, with distinguishable representations for visually similar digits such as b vs 8.</p>
 <section id="testbench-simulation" class="level3">
 <h3 class="anchored" data-anchor-id="testbench-simulation">Testbench Simulation</h3>
 <div id="fig-testbench" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -572,7 +575,7 @@ Figure&nbsp;4: A screenshot of a QuestaSim simulation demonstrating the blinking
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This lab took 20 hours. Soldering on the components to the developoment board required a lot of time, and setting up the Lattice Radiant and Programmer Environments took a bit to get used to. A huge chunk of time was dedicated to debugging USB Serial Driver issues!</p>
+<p>This lab took 10 hours. Soldering on the components to the developoment board required a lot of time, and setting up openFPGALoader took a bit as well.</p>
 </div>
 </div>
 </section>
