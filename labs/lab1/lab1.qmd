@@ -100,7 +100,7 @@ The design successfully met all objectives. The LED truth table was verified bot
 
 ::: {.callout-note}
 ## Hours Spent on Lab
-This lab took 10 hours. Soldering on the components to the developoment board required a lot of time, and setting up openFPGALoader took a bit as well.
+This lab took 15 hours. Soldering on the components to the development board required a lot of time, and setting up openFPGALoader took a bit as well.
 :::
 
 
