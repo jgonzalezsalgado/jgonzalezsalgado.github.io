@@ -493,6 +493,18 @@ Table&nbsp;1: Digital Inputs and Outputs for Lab 1
 <section id="block-diagram" class="level3">
 <h3 class="anchored" data-anchor-id="block-diagram">Block Diagram</h3>
 <p><em>Lab 1 Block Diagram // Joaquin Gonzalez-Salgado // September 1 2025</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Expand to see Block Diagram
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <div id="fig-block-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-block-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -503,11 +515,26 @@ Figure&nbsp;2: Top-Level Block Diagram of’Lab1_jg’ and ‘sevenSegment’.
 </figcaption>
 </figure>
 </div>
+</div>
+</div>
+</div>
 <p>The block diagram in <a href="#fig-block-diagram" class="quarto-xref">Figure&nbsp;2</a> demonstrates the overall architecture of the design. The top-level module <code>lab1_jg</code> includes three submodules: a high-speed oscillator block (<code>HSOSC</code>), a sequential logic counter which acts as a clock divider, and the combinational logic for the 7-Segment display (<code>sevenSegment</code>).</p>
 </section>
 <section id="schematic" class="level3">
 <h3 class="anchored" data-anchor-id="schematic">Schematic</h3>
 <p><em>Lab 1 Wiring Schematic // Joaquin Gonzalez-Salgado // September 1 2025</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Expand to see Schematic
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <div id="fig-schematic" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-schematic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -517,6 +544,9 @@ Figure&nbsp;2: Top-Level Block Diagram of’Lab1_jg’ and ‘sevenSegment’.
 Figure&nbsp;3: Schematic of FPGA, DIP switches, and 7-segment wiring.
 </figcaption>
 </figure>
+</div>
+</div>
+</div>
 </div>
 <p><a href="#fig-schematic" class="quarto-xref">Figure&nbsp;3</a> Shows the wiring approach for this lab. Each on-board LED is connected to an SMT 1 k<span class="math inline">\(\Omega\)</span> resistor via the development board.</p>
 <p>As for the 7-Segment display, 5 to 20 mA of current was advised in the lab manual. Since the common anode is tied to 3.3V, Ohm’s law can be used to find an effective resistor for this current. (For this calculation, I chose 13 mA of current). This is shown in <a href="#eq-resistor" class="quarto-xref">Equation&nbsp;1</a>:</p>
@@ -550,6 +580,18 @@ Count_{Max} = \frac{24MHz}{2.4Hz} = 10,000,000
 <p>The design successfully met all objectives. The LED truth table was verified both in Questa and the on-board LEDs. <code>led[0]</code> correctly implements XOR of S1 and S0, and <code>led[1]</code> correctly illuminates only when both S2 and S3 are high (AND). <code>led[2]</code> blinks at approximately 2.4 Hz, verified by observing the counter period in simulation. The enable and reset work as intended. All 16 hexadecimal digits (0–F) were confirmed to display correctly on the 7-segment display, with distinguishable representations for visually similar digits such as b vs 8.</p>
 <section id="testbench-simulation" class="level3">
 <h3 class="anchored" data-anchor-id="testbench-simulation">Testbench Simulation</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Expand to see Simulation Results
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <div id="fig-testbench" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-testbench-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -559,6 +601,9 @@ Count_{Max} = \frac{24MHz}{2.4Hz} = 10,000,000
 Figure&nbsp;4: A screenshot of a QuestaSim simulation demonstrating the blinking output signal. Note that the timescale for the clock divider was modified to divide by 4.
 </figcaption>
 </figure>
+</div>
+</div>
+</div>
 </div>
 <p><a href="#fig-testbench" class="quarto-xref">Figure&nbsp;4</a> shows a screenshot of the QuestaSim simulation. Asserts were also used to verify all 8 LED truth table cases, and all decoder outputs.</p>
 </section>
@@ -637,9 +682,9 @@ end</code></pre>
 </div>
 <section id="reflection" class="level3">
 <h3 class="anchored" data-anchor-id="reflection">Reflection:</h3>
-<p>Every week I will try a different AI model, just to get a scope of the variety of LLMs. This week is <code>ChatGPT-5.5</code>. <code>ChatGPT-5.5</code> was able to create code that was synthesizable in Lattice Radiant, and produced a succesful verilog file that allowed for an LED to pulse at <code>2.01 Hz</code> (verified via Oscilloscope), completely on the first try. The only work I had to do was route the resulting led output to the pin on the FPGA.</p>
-<p>As for the quality of the output, <code>ChatGPT-5.5</code> did exactly what I told it to do, with no errors from Radiant at all. The LLM generated some syntax that I was unfamiliar with, as I have never used <code>$clog2</code> before. It also used a different method than what I had used (stating an unsigned integer for the count) so that was new.</p>
-<p>The next time I utilize an LLM in my workflow, I would most likely ask it to use terms/methods that I am familiar with, or explain what the different parts of the SystemVerilog file do. <code>ChatGPT-5.5</code> did not explain the workflow at all, and just gave me the code with not context.</p>
+<p>Every week I will try a different AI model, just to get a scope of the variety of LLMs. This week is <code>ChatGPT-5.6</code>. <code>ChatGPT-5.6</code> was able to create code that was synthesizable in Lattice Radiant, and produced a succesful verilog file that allowed for an LED to pulse at <code>2.01 Hz</code> (verified via Oscilloscope), completely on the first try. The only work I had to do was route the resulting led output to the pin on the FPGA.</p>
+<p>As for the quality of the output, <code>ChatGPT-5.6</code> did exactly what I told it to do, with no errors from Radiant at all. The LLM generated some syntax that I was unfamiliar with, as I have never used <code>$clog2</code> before. It also used a different method than what I had used (stating an unsigned integer for the count) so that was new.</p>
+<p>The next time I utilize an LLM in my workflow, I would most likely ask it to use terms/methods that I am familiar with, or explain what the different parts of the SystemVerilog file do. <code>ChatGPT-5.6</code> did not explain the workflow at all, and just gave me the code with not context.</p>
 
 
 </section>
