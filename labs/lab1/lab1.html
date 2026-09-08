@@ -592,20 +592,40 @@ Count_{Max} = \frac{24MHz}{2.4Hz} = 10,000,000
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div id="fig-testbench" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-testbench-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-testbench-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/waveforms.png" class="img-fluid figure-img">
+<div aria-describedby="fig-testbench-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/simulation1.png" class="img-fluid figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testbench-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: A screenshot of a QuestaSim simulation demonstrating the blinking output signal. Note that the timescale for the clock divider was modified to divide by 4.
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testbench-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: A screenshot of a QuestaSim simulation showing the Seven Segment decoder working as expected.
+</figcaption>
+</figure>
+</div>
+<div id="fig-testbench-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-testbench-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/simulation2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testbench-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: A screenshot of a QuestaSim simulation demonstrating that the Counter module works as expected.
+</figcaption>
+</figure>
+</div>
+<div id="fig-testbench-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-testbench-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/simulation3.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testbench-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: A screenshot of a QuestaSim simulation showing that the top module (led assigns &amp; port checks) work as intended.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<p><a href="#fig-testbench" class="quarto-xref">Figure&nbsp;4</a> shows a screenshot of the QuestaSim simulation. Asserts were also used to verify all 8 LED truth table cases, and all decoder outputs.</p>
+<p><a href="#fig-testbench-1" class="quarto-xref">Figure&nbsp;4</a>, <a href="#fig-testbench-2" class="quarto-xref">Figure&nbsp;5</a>, and <a href="#fig-testbench-3" class="quarto-xref">Figure&nbsp;6</a> show screenshots of the QuestaSim simulation. Asserts were used to verify all 8 LED truth table cases, all Seven Segment decoder outputs, check if HSOSC produces a clock signal, and if the counter is receiving the clock, reset, and enable signals.</p>
 </section>
 </section>
 <section id="conclusion" class="level2">
