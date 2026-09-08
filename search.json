@@ -368,7 +368,7 @@
     "href": "labs/lab1/lab1.html#conclusion",
     "title": "Lab 1: FPGA and MCU Setup and Testing",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\n\n\n\n\nNoteHours Spent on Lab\n\n\n\nThis lab took 10 hours. Soldering on the components to the developoment board required a lot of time, and setting up openFPGALoader took a bit as well."
+    "text": "Conclusion\n\n\n\n\n\n\nNoteHours Spent on Lab\n\n\n\nThis lab took 15 hours. Soldering on the components to the development board required a lot of time, and setting up openFPGALoader took a bit as well."
   },
   {
     "objectID": "labs/lab1/lab1.html#ai-prototype-summary",
