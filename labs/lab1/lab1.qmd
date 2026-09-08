@@ -87,10 +87,14 @@ The design successfully met all objectives. The LED truth table was verified bot
 
 ::: {.callout-note collapse="true"}
 ## Expand to see Simulation Results
-![A screenshot of a QuestaSim simulation demonstrating the blinking output signal. Note that the timescale for the clock divider was modified to divide by 4.](images/waveforms.png){#fig-testbench}
+![A screenshot of a QuestaSim simulation showing the Seven Segment decoder working as expected.](images/simulation1.png){#fig-testbench-1}
+
+![A screenshot of a QuestaSim simulation demonstrating that the Counter module works as expected.](images/simulation2.png){#fig-testbench-2}
+
+![A screenshot of a QuestaSim simulation showing that the top module (led assigns & port checks) work as intended.](images/simulation3.png){#fig-testbench-3}
 :::
 
-@fig-testbench shows a screenshot of the QuestaSim simulation. Asserts were also used to verify all 8 LED truth table cases, and all decoder outputs. 
+@fig-testbench-1, @fig-testbench-2, and @fig-testbench-3 show screenshots of the QuestaSim simulation. Asserts were used to verify all 8 LED truth table cases, all Seven Segment decoder outputs, check if HSOSC produces a clock signal, and if the counter is receiving the clock, reset, and enable signals.
 
 ## Conclusion
 
