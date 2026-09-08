@@ -32,6 +32,8 @@ format: html
 </div>
 ```
 
+<!--
+
 ---
 
 ## Multiplexed 7-Segment Display (Lab 2)
@@ -145,3 +147,6 @@ format: html
   </div>
 </div>
 ```
+
+-->
+

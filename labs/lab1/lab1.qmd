@@ -36,7 +36,10 @@ The source code for the project can be found in the associated [Github Repo](htt
 
 *Lab 1 Block Diagram // Joaquin Gonzalez-Salgado // September 1 2025*
 
+::: {.callout-note collapse="true"}
+## Expand to see Block Diagram
 ![Top-Level Block Diagram of'Lab1_jg' and 'sevenSegment'.](images/blockDiagram.jpeg){#fig-block-diagram}
+:::
 
 The block diagram in @fig-block-diagram demonstrates the overall architecture of the design. The top-level module `lab1_jg` includes three submodules: a high-speed oscillator block (`HSOSC`), a sequential logic counter which acts as a clock divider, and the combinational logic for the 7-Segment display (`sevenSegment`).
 
@@ -44,7 +47,10 @@ The block diagram in @fig-block-diagram demonstrates the overall architecture of
 
 *Lab 1 Wiring Schematic // Joaquin Gonzalez-Salgado // September 1 2025*
 
+::: {.callout-note collapse="true"}
+## Expand to see Schematic
 ![Schematic of FPGA, DIP switches, and 7-segment wiring.](images/schematic.jpeg){#fig-schematic}
+:::
 
 @fig-schematic Shows the wiring approach for this lab. Each on-board LED is connected to an SMT 1 k$\Omega$ resistor via the development board. 
 
@@ -79,7 +85,10 @@ The design successfully met all objectives. The LED truth table was verified bot
 
 ### Testbench Simulation
 
+::: {.callout-note collapse="true"}
+## Expand to see Simulation Results
 ![A screenshot of a QuestaSim simulation demonstrating the blinking output signal. Note that the timescale for the clock divider was modified to divide by 4.](images/waveforms.png){#fig-testbench}
+:::
 
 @fig-testbench shows a screenshot of the QuestaSim simulation. Asserts were also used to verify all 8 LED truth table cases, and all decoder outputs. 
 
@@ -136,8 +145,8 @@ endmodule
 :::
 
 ### Reflection:
-Every week I will try a different AI model, just to get a scope of the variety of LLMs. This week is `ChatGPT-5.5`. `ChatGPT-5.5` was able to create code that was synthesizable in Lattice Radiant, and produced a succesful verilog file that allowed for an LED to pulse at `2.01 Hz` (verified via Oscilloscope), completely on the first try. The only work I had to do was route the resulting led output to the pin on the FPGA. 
+Every week I will try a different AI model, just to get a scope of the variety of LLMs. This week is `ChatGPT-5.6`. `ChatGPT-5.6` was able to create code that was synthesizable in Lattice Radiant, and produced a succesful verilog file that allowed for an LED to pulse at `2.01 Hz` (verified via Oscilloscope), completely on the first try. The only work I had to do was route the resulting led output to the pin on the FPGA. 
 
-As for the quality of the output, `ChatGPT-5.5` did exactly what I told it to do, with no errors from Radiant at all. The LLM generated some syntax that I was unfamiliar with, as I have never used `$clog2` before. It also used a different method than what I had used (stating an unsigned integer for the count) so that was new. 
+As for the quality of the output, `ChatGPT-5.6` did exactly what I told it to do, with no errors from Radiant at all. The LLM generated some syntax that I was unfamiliar with, as I have never used `$clog2` before. It also used a different method than what I had used (stating an unsigned integer for the count) so that was new. 
 
-The next time I utilize an LLM in my workflow, I would most likely ask it to use terms/methods that I am familiar with, or explain what the different parts of the SystemVerilog file do. `ChatGPT-5.5` did not explain the workflow at all, and just gave me the code with not context.
+The next time I utilize an LLM in my workflow, I would most likely ask it to use terms/methods that I am familiar with, or explain what the different parts of the SystemVerilog file do. `ChatGPT-5.6` did not explain the workflow at all, and just gave me the code with not context.
