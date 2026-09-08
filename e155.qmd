@@ -32,6 +32,30 @@ format: html
 </div>
 ```
 
+---
+
+## Multiplexed 7-Segment Display (Lab 2)
+
+---
+
+## Keypad Scanner (Lab 3)
+
+---
+
+## Digital Audio (Lab 4)
+
+---
+
+## Interrupts (Lab 5)
+
+---
+
+## SPI and IoT (Lab 6)
+
+---
+
+## Advanced Encryption Standard (Lab 7)
+
 <!--
 
 ---
